@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="~/admin-assets/styles/global.css" rel="stylesheet">
+    <link href="~/admin-assets/styles/output.css" rel="stylesheet">
+    <link href="~/admin-assets/styles/input.css" rel="stylesheet">
+    <link href="~/css/notifications.css" rel="stylesheet">
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+</head>
+<body>
+    @* <partial name="_Header" /> *@
+    <div class="bg-mainGray3 lg:pt-4">
+        <div class="flex flex-col lg:flex-row p-4 ">
+            <partial name="_SideBar" />
+            <div class="flex flex-col lg:w-3/4 px-4">
+                <div class="flex flex-col space-y-4">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/admin-assets/js/main.js"></script>
+    <script src="~/js/custom.js"></script>
+    <script src="~/js/notifications.js"></script>
+    <partial name="_Message"/>
+    </body>
+</html>

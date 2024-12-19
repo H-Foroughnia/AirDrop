@@ -1,0 +1,6 @@
+@AirDrop.EndPoint_HostAddress = http://localhost:5138
+
+GET {{AirDrop.EndPoint_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

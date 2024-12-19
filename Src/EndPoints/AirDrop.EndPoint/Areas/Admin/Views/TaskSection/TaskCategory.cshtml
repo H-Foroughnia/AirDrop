@@ -1,0 +1,56 @@
+﻿@model IEnumerable<AirDrop.Domain.Models.Task.AirDropTaskCategory>
+
+<div class="flex">
+    <div class="flex flex-col adminPanel-background-template w-full">
+        <h2 class="font-semibold text-2xl">Task Category Management</h2>
+        <div class="flex justify-between items-center py-2 border-b">
+            <h2 class="text-lg font-semibold">Add / Edit/ Delete  Task Categories</h2>
+            <div class="flex space-x-2">
+                <a asp-area="Admin" asp-controller="TaskSection" asp-action="AddTaskCategory" class="adminPanel-button !rounded-2xl">
+                    <img src="~/assets/media/icons/adminPanel-icons/add.svg" width="24" height="24" alt="">
+                    Add Task Category
+                </a>
+            </div>
+        </div>
+        <div class="">
+            <table class="table-auto w-full border-separate border-spacing-y-2  ">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Date Created</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var taskCategory in Model)
+                    {
+                        <tr class="bg-mainGray ">
+                            <td>
+                                <div class="adminPanel-justify-table">
+                                    <p class="flex space-x-2">
+                                        @taskCategory.Name
+                                    </p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="adminPanel-justify-table">
+                                    <p class="flex space-x-2">
+                                        @taskCategory.CreationDate.ToString("yyyy-MM-dd")
+                                    </p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="adminPanel-justify-table">
+                                    <a asp-area="Admin" asp-controller="TaskSection" asp-action="DeleteTaskCategory" asp-route-id="@taskCategory.Id" class="adminPanel-remove-button !rounded-2xl space-x-2 w-[120px]">
+                                        <img src="~/assets/media/icons/adminPanel-icons/trash.svg" class="img-24" alt="">
+                                        <p class="text-lg">Delete</p>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

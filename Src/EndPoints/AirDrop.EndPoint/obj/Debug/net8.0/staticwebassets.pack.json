@@ -1,0 +1,1717 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\fonts\\eot\\TahrirBlack.eot",
+      "PackagePath": "staticwebassets\\admin-assets\\fonts\\eot\\TahrirBlack.eot"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\fonts\\eot\\TahrirBold.eot",
+      "PackagePath": "staticwebassets\\admin-assets\\fonts\\eot\\TahrirBold.eot"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\fonts\\eot\\TahrirBook.eot",
+      "PackagePath": "staticwebassets\\admin-assets\\fonts\\eot\\TahrirBook.eot"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\fonts\\eot\\TahrirExtraBold.eot",
+      "PackagePath": "staticwebassets\\admin-assets\\fonts\\eot\\TahrirExtraBold.eot"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\fonts\\eot\\TahrirMedium.eot",
+      "PackagePath": "staticwebassets\\admin-assets\\fonts\\eot\\TahrirMedium.eot"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\fonts\\eot\\TahrirRegular.eot",
+      "PackagePath": "staticwebassets\\admin-assets\\fonts\\eot\\TahrirRegular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\fonts\\woff2\\TahrirBlack.woff2",
+      "PackagePath": "staticwebassets\\admin-assets\\fonts\\woff2\\TahrirBlack.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\fonts\\woff2\\TahrirBold.woff2",
+      "PackagePath": "staticwebassets\\admin-assets\\fonts\\woff2\\TahrirBold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\fonts\\woff2\\TahrirBook.woff2",
+      "PackagePath": "staticwebassets\\admin-assets\\fonts\\woff2\\TahrirBook.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\fonts\\woff2\\TahrirExtraBold.woff2",
+      "PackagePath": "staticwebassets\\admin-assets\\fonts\\woff2\\TahrirExtraBold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\fonts\\woff2\\TahrirMedium.woff2",
+      "PackagePath": "staticwebassets\\admin-assets\\fonts\\woff2\\TahrirMedium.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\fonts\\woff2\\TahrirRegular.woff2",
+      "PackagePath": "staticwebassets\\admin-assets\\fonts\\woff2\\TahrirRegular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\fonts\\woff\\TahrirBlack.woff",
+      "PackagePath": "staticwebassets\\admin-assets\\fonts\\woff\\TahrirBlack.woff"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\fonts\\woff\\TahrirBold.woff",
+      "PackagePath": "staticwebassets\\admin-assets\\fonts\\woff\\TahrirBold.woff"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\fonts\\woff\\TahrirBook.woff",
+      "PackagePath": "staticwebassets\\admin-assets\\fonts\\woff\\TahrirBook.woff"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\fonts\\woff\\TahrirExtraBold.woff",
+      "PackagePath": "staticwebassets\\admin-assets\\fonts\\woff\\TahrirExtraBold.woff"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\fonts\\woff\\TahrirMedium.woff",
+      "PackagePath": "staticwebassets\\admin-assets\\fonts\\woff\\TahrirMedium.woff"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\fonts\\woff\\TahrirRegular.woff",
+      "PackagePath": "staticwebassets\\admin-assets\\fonts\\woff\\TahrirRegular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\js\\ajax.js",
+      "PackagePath": "staticwebassets\\admin-assets\\js\\ajax.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\js\\ckEditor.js",
+      "PackagePath": "staticwebassets\\admin-assets\\js\\ckEditor.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\admin-assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\Mohsen Lorestani - Bache Nane (128).mp3",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\Mohsen Lorestani - Bache Nane (128).mp3"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\ButtonBuy.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\ButtonBuy.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\Download.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\Download.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\DownloadWhite.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\DownloadWhite.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\Essentials.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\Essentials.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\Essentials2.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\Essentials2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\Lines.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\Lines.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\Lines2.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\Lines2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\Logo.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\Logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\Logo3.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\Logo3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\Profile.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\Profile.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\Rating Star-hover.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\Rating Star-hover.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\Rating Star-selected.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\Rating Star-selected.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\Rating Star.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\Rating Star.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\Right Arrow.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\Right Arrow.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\Search-normalBlack.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\Search-normalBlack.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\Audio.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\Audio.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\Audio2.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\Audio2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\Circle.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\Circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\add.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\add.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\arrow-down.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\arrow-down.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\arrow-downRed.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\arrow-downRed.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\arrow-downWhite.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\arrow-downWhite.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\arrow-left.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\arrow-left.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\arrow-right.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\arrow-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\arrow-up.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\arrow-up.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\arrow-upGreen.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\arrow-upGreen.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\arrow-upWhite.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\arrow-upWhite.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\calendar.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\calendar.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\close-circle.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\close-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\danger.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\danger.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\document-upload.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\document-upload.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\document-upload2.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\document-upload2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\document.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\document.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\dollar-circle.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\dollar-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\dollar-circle2.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\dollar-circle2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\dollar-circle3.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\dollar-circle3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\edit-2.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\edit-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\element-plus.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\element-plus.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\element-plus2.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\element-plus2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\export.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\export.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\filter.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\filter.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\gallery-add.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\gallery-add.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\gallery-add2.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\gallery-add2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\gallery.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\gallery.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\global-edit.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\global-edit.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\global-edit2.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\global-edit2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\global.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\global.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\grid-edit.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\grid-edit.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\grid-editBlack.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\grid-editBlack.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\income-arrow-up.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\income-arrow-up.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\info-circle.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\info-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\layer.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\layer.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\layer2.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\layer2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\more.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\more.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\note-2.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\note-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\note.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\note.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\people.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\people.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\people1.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\people1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\percentage-circle.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\percentage-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\profile.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\profile.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\refresh-2.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\refresh-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\search-normal.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\search-normal.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\selectionCircle.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\selectionCircle.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\tag.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\tag.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\tag2.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\tag2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\tick-circle.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\tick-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\adminPanel-icons\\trash.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\adminPanel-icons\\trash.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\arrow-circle-left.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\arrow-circle-left.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\arrow-down.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\arrow-down.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\arrow-downBlack.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\arrow-downBlack.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\arrow-right.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\arrow-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\avatar.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\avatar.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\book.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\book.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\book2.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\book2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\bookBlack.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\bookBlack.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\burger.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\burger.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\call.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\call.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\cancel.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\cancel.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\download-svgrepo-com.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\download-svgrepo-com.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\headphone.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\headphone.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\heart-like-solid-svgrepo-com.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\heart-like-solid-svgrepo-com.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\heart-like-svgrepo-com.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\heart-like-svgrepo-com.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\heart.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\heart.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\heartWhite.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\heartWhite.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\inastagram.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\inastagram.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\instagram.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\instagram.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\link.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\link.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\lock.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\lock.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\login.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\login.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\magic-star-white.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\magic-star-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\magic-star.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\magic-star.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\magicpen.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\magicpen.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\microphone2.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\microphone2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\microphoneBlack.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\microphoneBlack.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\note.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\note.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\people.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\people.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\printer.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\printer.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\printerWhite.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\printerWhite.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\search-normal.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\search-normal.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\sms.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\sms.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\star.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\star.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\telegram.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\telegram.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\twitter.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\twitter.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\user-octagon.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\user-octagon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\user.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\user.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\userPanel-icons\\Essentials.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\userPanel-icons\\Essentials.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\userPanel-icons\\arrow-down.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\userPanel-icons\\arrow-down.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\userPanel-icons\\arrow-right.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\userPanel-icons\\arrow-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\userPanel-icons\\arrow-up.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\userPanel-icons\\arrow-up.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\userPanel-icons\\coin.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\userPanel-icons\\coin.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\userPanel-icons\\directbox-default.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\userPanel-icons\\directbox-default.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\userPanel-icons\\document-download2.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\userPanel-icons\\document-download2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\userPanel-icons\\document-download@2x.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\userPanel-icons\\document-download@2x.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\userPanel-icons\\edit.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\userPanel-icons\\edit.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\userPanel-icons\\edit2.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\userPanel-icons\\edit2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\userPanel-icons\\eye-slash.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\userPanel-icons\\eye-slash.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\userPanel-icons\\home.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\userPanel-icons\\home.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\userPanel-icons\\home1.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\userPanel-icons\\home1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\userPanel-icons\\logout.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\userPanel-icons\\logout.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\userPanel-icons\\logout2.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\userPanel-icons\\logout2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\userPanel-icons\\music-library-2.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\userPanel-icons\\music-library-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\userPanel-icons\\music-library2-2.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\userPanel-icons\\music-library2-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\userPanel-icons\\notification.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\userPanel-icons\\notification.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\userPanel-icons\\notification2.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\userPanel-icons\\notification2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\userPanel-icons\\people.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\userPanel-icons\\people.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\userPanel-icons\\people1.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\userPanel-icons\\people1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\userPanel-icons\\play-circle.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\userPanel-icons\\play-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\userPanel-icons\\setting-2.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\userPanel-icons\\setting-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\userPanel-icons\\setting2-2.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\userPanel-icons\\setting2-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\userPanel-icons\\shopping-cart.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\userPanel-icons\\shopping-cart.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\userPanel-icons\\trash.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\userPanel-icons\\trash.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\whatsapp.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\whatsapp.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\media\\icons\\x.svg",
+      "PackagePath": "staticwebassets\\admin-assets\\media\\icons\\x.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\styles\\global.css",
+      "PackagePath": "staticwebassets\\admin-assets\\styles\\global.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\styles\\input.css",
+      "PackagePath": "staticwebassets\\admin-assets\\styles\\input.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\admin-assets\\styles\\output.css",
+      "PackagePath": "staticwebassets\\admin-assets\\styles\\output.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\js\\ajax.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ajax.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\js\\ckEditor.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ckEditor.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\Mohsen Lorestani - Bache Nane (128).mp3",
+      "PackagePath": "staticwebassets\\assets\\media\\Mohsen Lorestani - Bache Nane (128).mp3"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\ButtonBuy.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\ButtonBuy.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\Download.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\Download.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\DownloadWhite.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\DownloadWhite.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\Essentials.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\Essentials.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\Essentials2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\Essentials2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\Lines.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\Lines.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\Lines2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\Lines2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\Logo.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\Logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\Logo3.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\Logo3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\Profile.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\Profile.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\Rating Star-hover.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\Rating Star-hover.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\Rating Star-selected.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\Rating Star-selected.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\Rating Star.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\Rating Star.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\Right Arrow.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\Right Arrow.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\Search-normalBlack.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\Search-normalBlack.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\Audio.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\Audio.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\Audio2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\Audio2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\Circle.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\Circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\add.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\add.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\arrow-down.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\arrow-down.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\arrow-downRed.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\arrow-downRed.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\arrow-downWhite.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\arrow-downWhite.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\arrow-left.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\arrow-left.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\arrow-right.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\arrow-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\arrow-up.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\arrow-up.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\arrow-upGreen.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\arrow-upGreen.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\arrow-upWhite.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\arrow-upWhite.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\calendar.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\calendar.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\close-circle.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\close-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\danger.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\danger.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\document-upload.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\document-upload.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\document-upload2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\document-upload2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\document.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\document.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\dollar-circle.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\dollar-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\dollar-circle2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\dollar-circle2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\dollar-circle3.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\dollar-circle3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\edit-2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\edit-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\element-plus.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\element-plus.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\element-plus2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\element-plus2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\export.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\export.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\filter.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\filter.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\gallery-add.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\gallery-add.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\gallery-add2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\gallery-add2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\gallery.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\gallery.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\global-edit.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\global-edit.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\global-edit2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\global-edit2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\global.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\global.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\grid-edit.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\grid-edit.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\grid-editBlack.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\grid-editBlack.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\income-arrow-up.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\income-arrow-up.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\info-circle.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\info-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\layer.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\layer.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\layer2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\layer2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\more.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\more.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\note-2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\note-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\note.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\note.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\people.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\people.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\people1.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\people1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\percentage-circle.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\percentage-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\profile.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\profile.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\refresh-2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\refresh-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\search-normal.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\search-normal.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\selectionCircle.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\selectionCircle.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\tag.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\tag.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\tag2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\tag2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\tick-circle.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\tick-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\adminPanel-icons\\trash.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\adminPanel-icons\\trash.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\arrow-circle-left.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\arrow-circle-left.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\arrow-down.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\arrow-down.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\arrow-downBlack.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\arrow-downBlack.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\arrow-right.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\arrow-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\avatar.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\avatar.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\book.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\book.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\book2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\book2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\bookBlack.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\bookBlack.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\burger.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\burger.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\call.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\call.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\download-svgrepo-com.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\download-svgrepo-com.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\headphone.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\headphone.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\heart-like-solid-svgrepo-com.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\heart-like-solid-svgrepo-com.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\heart-like-svgrepo-com.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\heart-like-svgrepo-com.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\heart.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\heart.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\heartWhite.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\heartWhite.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\inastagram.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\inastagram.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\instagram.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\instagram.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\link.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\link.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\lock.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\lock.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\login.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\login.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\magic-star-white.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\magic-star-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\magic-star.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\magic-star.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\magicpen.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\magicpen.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\microphone2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\microphone2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\microphoneBlack.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\microphoneBlack.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\note.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\note.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\people.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\people.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\printer.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\printer.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\printerWhite.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\printerWhite.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\search-normal.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\search-normal.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\sms.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\sms.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\star.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\star.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\telegram.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\telegram.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\twitter.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\twitter.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\user-octagon.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\user-octagon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\user.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\user.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\userPanel-icons\\Essentials.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\userPanel-icons\\Essentials.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\userPanel-icons\\arrow-down.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\userPanel-icons\\arrow-down.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\userPanel-icons\\arrow-right.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\userPanel-icons\\arrow-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\userPanel-icons\\arrow-up.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\userPanel-icons\\arrow-up.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\userPanel-icons\\coin.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\userPanel-icons\\coin.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\userPanel-icons\\directbox-default.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\userPanel-icons\\directbox-default.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\userPanel-icons\\document-download2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\userPanel-icons\\document-download2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\userPanel-icons\\document-download@2x.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\userPanel-icons\\document-download@2x.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\userPanel-icons\\edit.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\userPanel-icons\\edit.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\userPanel-icons\\edit2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\userPanel-icons\\edit2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\userPanel-icons\\eye-slash.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\userPanel-icons\\eye-slash.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\userPanel-icons\\home.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\userPanel-icons\\home.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\userPanel-icons\\home1.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\userPanel-icons\\home1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\userPanel-icons\\logout.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\userPanel-icons\\logout.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\userPanel-icons\\logout2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\userPanel-icons\\logout2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\userPanel-icons\\music-library-2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\userPanel-icons\\music-library-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\userPanel-icons\\music-library2-2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\userPanel-icons\\music-library2-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\userPanel-icons\\notification.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\userPanel-icons\\notification.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\userPanel-icons\\notification2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\userPanel-icons\\notification2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\userPanel-icons\\people.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\userPanel-icons\\people.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\userPanel-icons\\people1.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\userPanel-icons\\people1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\userPanel-icons\\play-circle.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\userPanel-icons\\play-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\userPanel-icons\\setting-2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\userPanel-icons\\setting-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\userPanel-icons\\setting2-2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\userPanel-icons\\setting2-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\userPanel-icons\\shopping-cart.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\userPanel-icons\\shopping-cart.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\userPanel-icons\\trash.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\userPanel-icons\\trash.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\whatsapp.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\whatsapp.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\icons\\x.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\x.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\2.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\3.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\4.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\4.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\IMG-1.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\IMG-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\IMG.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\IMG.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\IMG2.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\IMG2.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\Left-Auto-Layout.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\Left-Auto-Layout.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\Logo.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\Logo.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\Pic .webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\Pic .webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\Pic 1.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\Pic 1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\Pic10.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\Pic10.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\Pic11.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\Pic11.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\Pic12.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\Pic12.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\Pic13.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\Pic13.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\Pic14.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\Pic14.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\Pic15.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\Pic15.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\Pic16.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\Pic16.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\Pic17.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\Pic17.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\Pic18.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\Pic18.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\Pic3.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\Pic3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\Pic4.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\Pic4.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\Pic5.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\Pic5.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\Pic6.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\Pic6.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\Pic7.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\Pic7.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\Pic8.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\Pic8.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\Pic9.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\Pic9.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\Post.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\Post.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\Slider Frame.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\Slider Frame.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\TrumpetPic 3.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\TrumpetPic 3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\adminPanel-images\\Add New Plan.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\adminPanel-images\\Add New Plan.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\adminPanel-images\\Head.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\adminPanel-images\\Head.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\adminPanel-images\\Pic.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\adminPanel-images\\Pic.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\adminPanel-images\\Pic2.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\adminPanel-images\\Pic2.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\adminPanel-images\\Pic3.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\adminPanel-images\\Pic3.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\adminPanel-images\\Pic4.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\adminPanel-images\\Pic4.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\adminPanel-images\\Pic5.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\adminPanel-images\\Pic5.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\adminPanel-images\\Pic6.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\adminPanel-images\\Pic6.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\adminPanel-images\\Pic7.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\adminPanel-images\\Pic7.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\adminPanel-images\\Pic8.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\adminPanel-images\\Pic8.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\adminPanel-images\\test-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\adminPanel-images\\test-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\adminPanel-images\\test.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\adminPanel-images\\test.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\arrow-curved-to-the-left-svgrepo-com(1).svg",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\arrow-curved-to-the-left-svgrepo-com(1).svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\arrow-curved-to-the-left-svgrepo-com(2).svg",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\arrow-curved-to-the-left-svgrepo-com(2).svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\arrow-pointing-north-svgrepo-com(1).svg",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\arrow-pointing-north-svgrepo-com(1).svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\arrow-pointing-north-svgrepo-com.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\arrow-pointing-north-svgrepo-com.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\curved-next-arrow-svgrepo-com(1).svg",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\curved-next-arrow-svgrepo-com(1).svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\curved-next-arrow-svgrepo-com.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\curved-next-arrow-svgrepo-com.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\e-namad.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\e-namad.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\error-403.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\error-403.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\headerPic.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\headerPic.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\headerPic2.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\headerPic2.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\newLogo.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\newLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\pianoPic.webp",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\pianoPic.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\userPanel-images\\Pic.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\userPanel-images\\Pic.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\userPanel-images\\Pic1.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\userPanel-images\\Pic1.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\userPanel-images\\Pic2.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\userPanel-images\\Pic2.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\userPanel-images\\Pic2Mobile.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\userPanel-images\\Pic2Mobile.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\userPanel-images\\Pic4-Mobile.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\userPanel-images\\Pic4-Mobile.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\userPanel-images\\Pic4.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\userPanel-images\\Pic4.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\userPanel-images\\Pic5.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\userPanel-images\\Pic5.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\userPanel-images\\PicMobile.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\userPanel-images\\PicMobile.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\userPanel-images\\Picpic3.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\userPanel-images\\Picpic3.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\media\\images\\userPanel-images\\profile-circle.png",
+      "PackagePath": "staticwebassets\\assets\\media\\images\\userPanel-images\\profile-circle.png"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\styles\\global.css",
+      "PackagePath": "staticwebassets\\assets\\styles\\global.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\styles\\input.css",
+      "PackagePath": "staticwebassets\\assets\\styles\\input.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\assets\\styles\\output.css",
+      "PackagePath": "staticwebassets\\assets\\styles\\output.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\css\\notifications.css",
+      "PackagePath": "staticwebassets\\css\\notifications.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\js\\notifications.js",
+      "PackagePath": "staticwebassets\\js\\notifications.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AirDrop.EndPoint.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AirDrop.EndPoint.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AirDrop.EndPoint.props",
+      "PackagePath": "build\\AirDrop.EndPoint.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AirDrop.EndPoint.props",
+      "PackagePath": "buildMultiTargeting\\AirDrop.EndPoint.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AirDrop.EndPoint.props",
+      "PackagePath": "buildTransitive\\AirDrop.EndPoint.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
