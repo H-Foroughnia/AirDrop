@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AirDrop.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a6aa40f7fb3cbd429ee95097e84ba7b862bdae6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+495aef5f300f44b1c822e8af7dddb46942933f33")]
 [assembly: System.Reflection.AssemblyProductAttribute("AirDrop.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AirDrop.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
