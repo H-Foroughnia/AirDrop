@@ -4,6 +4,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using AirDrop.Application.Interface;
+using AirDrop.Domain.DTO;
 
 namespace AirDrop.EndPoint.Controllers
 {
@@ -11,7 +12,6 @@ namespace AirDrop.EndPoint.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
-        private readonly string _botToken = "botToken";
         private readonly string _jwtSecretKey = "8f71648e-6a50-4cde-8474-bb02a9463b1c";
         private readonly TimeSpan _tokenLifetime = TimeSpan.FromHours(1);
         private readonly IUserService _userService;
@@ -22,15 +22,17 @@ namespace AirDrop.EndPoint.Controllers
         }
 
         [HttpPost("telegram")]
-        public async Task<IActionResult> TelegramAuth([FromBody] string id, [FromBody] string first_name, [FromBody] string last_name, [FromBody] string username)
+        public async Task<IActionResult> TelegramAuth([FromBody] TelegramAuthRequestDto request)
         {
-            if (string.IsNullOrEmpty(id))
+            if (request == null)
                 return BadRequest("Invalid request");
 
-            var user = await _userService.AuthenticateOrRegisterTelegramUserAsync(id, first_name, last_name, username);
-
-            if (user == null)
-                return BadRequest("User registration failed");
+            var user = await _userService.AuthenticateOrRegisterTelegramUserAsync(
+                request.Id,
+                request.FirstName,
+                request.LastName,
+                request.Username
+            );
 
             var jwtToken = GenerateJwtToken(user);
             return Ok(new { Token = jwtToken, User = user });

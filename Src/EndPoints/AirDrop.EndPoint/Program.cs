@@ -6,33 +6,34 @@ using AirDrop.Infra.IoC;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.EntityFrameworkCore;
 using System.Net;
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
-
-// Configure Kestrel server to listen on port 5001
 builder.WebHost.ConfigureKestrel(options =>
 {
-    options.Listen(IPAddress.Any, 5001);  // Bind to port 5001
+    options.Listen(IPAddress.Any, 5001);
 });
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-//builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-//    .AddJwtBearer(options =>
-//    {
-//        options.TokenValidationParameters = new TokenValidationParameters
-//        {
-//            ValidateIssuer = true,
-//            ValidateAudience = true,
-//            ValidateLifetime = true,
-//            ValidateIssuerSigningKey = true,
-//            ValidIssuer = "ourAirDrop",
-//            ValidAudience = "ourAirDrop",
-//            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("8f71648e-6a50-4cde-8474-bb02a9463b1c"))
-//        };
-//    });
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = "ourAirDrop",
+            ValidAudience = "ourAirDrop",
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("8f71648e-6a50-4cde-8474-bb02a9463b1c"))
+        };
+    });
 
 RegisterService(builder.Services);
 //mvc

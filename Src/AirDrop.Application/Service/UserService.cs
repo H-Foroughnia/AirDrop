@@ -34,8 +34,6 @@ public class UserService : IUserService
             await _userRepository.SaveChangesAsync();
         }
 
-        // Additional logic for login (e.g., generate JWT token) can be added here.
-
         return user;
     }
 }
