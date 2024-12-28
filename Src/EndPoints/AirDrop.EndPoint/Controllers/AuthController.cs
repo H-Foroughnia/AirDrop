@@ -15,9 +15,9 @@ namespace AirDrop.EndPoint.Controllers
         private readonly string _jwtSecretKey = "8f71648e-6a50-4cde-8474-bb02a9463b1c";
         private readonly TimeSpan _tokenLifetime = TimeSpan.FromHours(1);
         private readonly IUserService _userService;
-        private readonly ILogger _logger;
+        private readonly ILogger<AuthController> _logger;
 
-        public AuthController(IUserService userService, ILogger logger)
+        public AuthController(IUserService userService, ILogger<AuthController> logger)
         {
             _userService = userService;
             _logger = logger;
