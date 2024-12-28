@@ -290,7 +290,7 @@
       "TelegramAuthRequestDto": {
         "type": "object",
         "properties": {
-          "id": {
+          "telegramId": {
             "type": "string",
             "nullable": true
           },

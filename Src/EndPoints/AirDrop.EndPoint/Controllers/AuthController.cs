@@ -34,15 +34,15 @@ namespace AirDrop.EndPoint.Controllers
 
             _logger.LogInformation("Processing TelegramAuthRequestDto with the following details: " +
                                    "TelegramId: {Id}, FirstName: {FirstName}, LastName: {LastName}, Username: {Username}",
-                request.Id, request.FirstName, request.LastName, request.Username);
+                request.telegramId, request.firstName, request.lastName, request.username);
 
             try
             {
                 var user = await _userService.AuthenticateOrRegisterTelegramUserAsync(
-                    request.Id,
-                    request.FirstName,
-                    request.LastName,
-                    request.Username
+                    request.telegramId,
+                    request.firstName,
+                    request.lastName,
+                    request.username
                 );
                 return Ok(user);
 

@@ -7,7 +7,6 @@ using AirDrop.Domain.MVC.IRepository;
 using AirDrop.Infra.Data.MVC.Repository;
 using AirDrop.Infra.Data.Repository;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
 
 namespace AirDrop.Infra.IoC;
 
