@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AirDrop.Infra.IoC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54098228815b7d44485c3a2ed82694a4766988fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca87d4822a973b44325f5240310865d8bd90e8c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("AirDrop.Infra.IoC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AirDrop.Infra.IoC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
