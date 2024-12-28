@@ -3,31 +3,36 @@ using AirDrop.EndPoint.CustomDocumentFilters;
 using AirDrop.EndPoint.Models;
 using AirDrop.Infra.Data.Context;
 using AirDrop.Infra.IoC;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
+using System.Net;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Configure Kestrel server to listen on port 5001
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.Listen(IPAddress.Any, 5001);  // Bind to port 5001
+});
+
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(connectionString));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer(options =>
-    {
-        options.TokenValidationParameters = new TokenValidationParameters
-        {
-            ValidateIssuer = true,
-            ValidateAudience = true,
-            ValidateLifetime = true,
-            ValidateIssuerSigningKey = true,
-            ValidIssuer = "ourAirDrop",
-            ValidAudience = "ourAirDrop",
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("8f71648e-6a50-4cde-8474-bb02a9463b1c"))
-        };
-    });
+//builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+//    .AddJwtBearer(options =>
+//    {
+//        options.TokenValidationParameters = new TokenValidationParameters
+//        {
+//            ValidateIssuer = true,
+//            ValidateAudience = true,
+//            ValidateLifetime = true,
+//            ValidateIssuerSigningKey = true,
+//            ValidIssuer = "ourAirDrop",
+//            ValidAudience = "ourAirDrop",
+//            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("8f71648e-6a50-4cde-8474-bb02a9463b1c"))
+//        };
+//    });
 
 RegisterService(builder.Services);
 //mvc
@@ -46,17 +51,22 @@ builder.Services.AddScoped<IFileUploadHelper, FileUploadHelper>();
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
+app.UseSwagger();
+app.UseSwaggerUI(c =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "AirDrop API V1");
+    c.RoutePrefix = string.Empty;
+});
 app.UseHttpsRedirection();
+app.UseForwardedHeaders(new ForwardedHeadersOptions
+{
+    ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
+});
 
 //mvc
 app.UseStaticFiles();
 app.UseRouting();
+app.UseAuthorization();
 app.UseEndpoints(endpoints =>
         {
             endpoints.MapControllerRoute(
@@ -64,16 +74,12 @@ app.UseEndpoints(endpoints =>
               pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
             );
         });
-
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 //mvc
 
-app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();
 
 #region IoC

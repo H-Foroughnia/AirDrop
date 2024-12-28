@@ -1,0 +1,10 @@
+C:\Users\Hamid\Documents\AirDrop\AirDrop\publish\Common.Domain.dll
+C:\Users\Hamid\Documents\AirDrop\AirDrop\publish\Common.Domain.deps.json
+C:\Users\Hamid\Documents\AirDrop\AirDrop\publish\Common.Domain.pdb
+C:\Users\Hamid\Documents\AirDrop\AirDrop\publish\MediatR.dll
+C:\Users\Hamid\Documents\AirDrop\AirDrop\publish\MediatR.Contracts.dll
+C:\Users\Hamid\Documents\AirDrop\AirDrop\publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Hamid\Documents\AirDrop\AirDrop\publish\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Hamid\Documents\AirDrop\AirDrop\publish\Microsoft.IdentityModel.Logging.dll
+C:\Users\Hamid\Documents\AirDrop\AirDrop\publish\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Hamid\Documents\AirDrop\AirDrop\publish\Microsoft.IdentityModel.Tokens.dll

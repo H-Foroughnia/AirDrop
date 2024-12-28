@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/auth/telegram": {
+    "/api/Auth/telegram": {
       "get": {
         "tags": [
           "Auth"
@@ -68,7 +68,7 @@
         }
       }
     },
-    "/Category": {
+    "/api/Category": {
       "get": {
         "tags": [
           "Category"
@@ -106,7 +106,7 @@
         }
       }
     },
-    "/TaskImage": {
+    "/api/TaskImage": {
       "get": {
         "tags": [
           "TaskImage"

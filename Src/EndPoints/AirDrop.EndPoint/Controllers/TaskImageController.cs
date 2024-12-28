@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AirDrop.EndPoint.Controllers;
 
-[Route("[controller]")]
+[Route("api/taskimage")]
 [ApiController]
 public class TaskImageController : ControllerBase
 {

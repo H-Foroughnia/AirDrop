@@ -2,7 +2,7 @@
 
 namespace AirDrop.EndPoint.Controllers;
 
-[Route("[controller]")]
+[Route("api/TaskImageApprovement")]
 [ApiController]
 public class TaskImageApprovementController : ControllerBase
 {

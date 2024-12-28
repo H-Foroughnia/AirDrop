@@ -4,7 +4,9 @@ namespace AirDrop.Domain.Interface;
 
 public interface IUserRepository
 {
-    Task<User> GetUserByIdAsync(long id);
+    Task<User> GetUserByIdAsync(string id);
     Task AddUserAsync(User user);
+    Task<User> GetUserByTelegramIdAsync(string telegramId);
+
     Task SaveChangesAsync();
 }

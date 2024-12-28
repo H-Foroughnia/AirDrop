@@ -13,25 +13,28 @@ public class UserService : IUserService
         _userRepository = userRepository;
     }
 
-    public async Task<User> GetOrCreateUserAsync(long id, string username, string firstName, string lastName, string photoUrl)
+
+    public async Task<User> AuthenticateOrRegisterTelegramUserAsync(string telegramId, string firstName, string lastName, string username)
     {
-        var user = await _userRepository.GetUserByIdAsync(id);
+        var user = await _userRepository.GetUserByTelegramIdAsync(telegramId);
 
         if (user == null)
         {
             user = new User
             {
-                Id = id,
-                Username = username,
+                TelegramId = telegramId,
                 FirstName = firstName,
                 LastName = lastName,
-                PhotoUrl = photoUrl,
-                CreatedAt = DateTime.UtcNow
+                Username = username,
+                CreationDate = DateTime.UtcNow,
+                IsDelete = false
             };
 
             await _userRepository.AddUserAsync(user);
             await _userRepository.SaveChangesAsync();
         }
+
+        // Additional logic for login (e.g., generate JWT token) can be added here.
 
         return user;
     }

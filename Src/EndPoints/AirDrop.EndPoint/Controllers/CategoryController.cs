@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AirDrop.EndPoint.Controllers;
 
-[Route("[controller]")]
+[Route("api/category")]
 [ApiController]
 public class CategoryController : ControllerBase
 {

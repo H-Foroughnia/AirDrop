@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Common\\Common.Domain\\Common.Domain.csproj": {}
+    "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\Common\\Common.Domain\\Common.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Common\\Common.Domain\\Common.Domain.csproj": {
+    "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\Common\\Common.Domain\\Common.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Common\\Common.Domain\\Common.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\Common\\Common.Domain\\Common.Domain.csproj",
         "projectName": "Common.Domain",
-        "projectPath": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Common\\Common.Domain\\Common.Domain.csproj",
-        "packagesPath": "C:\\Users\\Hamid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Common\\Common.Domain\\obj\\",
+        "projectPath": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\Common\\Common.Domain\\Common.Domain.csproj",
+        "packagesPath": "C:\\Users\\hamid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\Common\\Common.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hamid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hamid\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -53,6 +53,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.4.1, )"
+            },
+            "Microsoft.IdentityModel.Protocols": {
+              "target": "Package",
+              "version": "[8.3.0, )"
             }
           },
           "imports": [
@@ -72,6 +76,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
         }
       }
     }

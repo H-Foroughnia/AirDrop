@@ -22,7 +22,7 @@ public class TaskService : ITaskService
         var taskCategory = new AirDropTaskCategory()
         {
             Name = viewModel.Name,
-            CreationDate = DateTime.Now,
+            CreationDate = DateTime.UtcNow,
             IsDelete = false
         };
         await _repository.AddTaskCategory(taskCategory);
@@ -41,7 +41,7 @@ public class TaskService : ITaskService
             Description = viewModel.Description,
             SampleImage = FilePath,
             Score = viewModel.Score,
-            CreationDate = DateTime.Now,
+            CreationDate = DateTime.UtcNow,
             IsDelete = false
         };
         await _repository.AddTask(task);

@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Protocols" Version="8.3.0" />
   </ItemGroup>
 
   <ItemGroup>

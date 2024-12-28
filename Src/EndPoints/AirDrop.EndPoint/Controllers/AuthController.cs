@@ -2,13 +2,12 @@
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
-using System.Security.Cryptography;
 using System.Text;
 using AirDrop.Application.Interface;
 
 namespace AirDrop.EndPoint.Controllers
 {
-    [Route("auth")]
+    [Route("api/auth")]
     [ApiController]
     public class AuthController : ControllerBase
     {
@@ -22,25 +21,19 @@ namespace AirDrop.EndPoint.Controllers
             _userService = userService;
         }
 
-        [HttpGet("telegram")]
-        public async Task<IActionResult> TelegramAuth([FromQuery] string hash, [FromQuery] string auth_date, [FromQuery] string id, [FromQuery] string first_name, [FromQuery] string last_name, [FromQuery] string username, [FromQuery] string photo_url)
+        [HttpPost("telegram")]
+        public async Task<IActionResult> TelegramAuth([FromBody] string id, [FromBody] string first_name, [FromBody] string last_name, [FromBody] string username)
         {
-            var dataCheckString = $"auth_date={auth_date}\nid={id}\nusername={username}";
+            if (string.IsNullOrEmpty(id))
+                return BadRequest("Invalid request");
 
-            using (var hmac = new HMACSHA256(Encoding.UTF8.GetBytes(_botToken)))
-            {
-                var hashBytes = hmac.ComputeHash(Encoding.UTF8.GetBytes(dataCheckString));
-                var calculatedHash = BitConverter.ToString(hashBytes).Replace("-", "").ToLower();
+            var user = await _userService.AuthenticateOrRegisterTelegramUserAsync(id, first_name, last_name, username);
 
-                if (calculatedHash != hash)
-                    return Unauthorized("Invalid Telegram login");
-            }
+            if (user == null)
+                return BadRequest("User registration failed");
 
-            var user = await _userService.GetOrCreateUserAsync(
-            long.Parse(id), username, first_name, last_name, photo_url);
-
-            var token = GenerateJwtToken(user);
-            return Ok(new { token });
+            var jwtToken = GenerateJwtToken(user);
+            return Ok(new { Token = jwtToken, User = user });
         }
 
         private string GenerateJwtToken(dynamic user)

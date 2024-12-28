@@ -4,5 +4,5 @@ namespace AirDrop.Application.Interface;
 
 public interface IUserService
 {
-    Task<User> GetOrCreateUserAsync(long id, string username, string firstName, string lastName, string photoUrl);
+    Task<User> AuthenticateOrRegisterTelegramUserAsync(string telegramId, string firstName, string lastName, string username);
 }

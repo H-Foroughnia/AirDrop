@@ -27,7 +27,7 @@ public class TaskImageService : ITaskImageService
             Status = dto.Status,
             TaskId = dto.TaskId,
             UserId = dto.UserId,
-            CreationDate = DateTime.Now,
+            CreationDate = DateTime.UtcNow,
             IsDelete = false
         };
         return await _imageTaskRepository.AddTask(imageTask);

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\AirDrop.Infra.Data\\AirDrop.Infra.Data.csproj": {}
+    "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\Src\\AirDrop.Infra.Data\\AirDrop.Infra.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Common\\Common.Domain\\Common.Domain.csproj": {
+    "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\Common\\Common.Domain\\Common.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Common\\Common.Domain\\Common.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\Common\\Common.Domain\\Common.Domain.csproj",
         "projectName": "Common.Domain",
-        "projectPath": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Common\\Common.Domain\\Common.Domain.csproj",
-        "packagesPath": "C:\\Users\\Hamid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Common\\Common.Domain\\obj\\",
+        "projectPath": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\Common\\Common.Domain\\Common.Domain.csproj",
+        "packagesPath": "C:\\Users\\hamid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\Common\\Common.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hamid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hamid\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -53,6 +53,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.4.1, )"
+            },
+            "Microsoft.IdentityModel.Protocols": {
+              "target": "Package",
+              "version": "[8.3.0, )"
             }
           },
           "imports": [
@@ -73,22 +77,27 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
       }
     },
-    "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\AirDrop.Domain\\AirDrop.Domain.csproj": {
+    "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\Src\\AirDrop.Domain\\AirDrop.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\AirDrop.Domain\\AirDrop.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\Src\\AirDrop.Domain\\AirDrop.Domain.csproj",
         "projectName": "AirDrop.Domain",
-        "projectPath": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\AirDrop.Domain\\AirDrop.Domain.csproj",
-        "packagesPath": "C:\\Users\\Hamid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\AirDrop.Domain\\obj\\",
+        "projectPath": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\Src\\AirDrop.Domain\\AirDrop.Domain.csproj",
+        "packagesPath": "C:\\Users\\hamid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\Src\\AirDrop.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hamid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hamid\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -103,8 +112,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Common\\Common.Domain\\Common.Domain.csproj": {
-                "projectPath": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Common\\Common.Domain\\Common.Domain.csproj"
+              "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\Common\\Common.Domain\\Common.Domain.csproj": {
+                "projectPath": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\Common\\Common.Domain\\Common.Domain.csproj"
               }
             }
           }
@@ -128,6 +137,10 @@
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.17, )"
+            },
+            "Microsoft.IdentityModel.Protocols": {
+              "target": "Package",
+              "version": "[8.3.0, )"
             }
           },
           "imports": [
@@ -148,22 +161,27 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
       }
     },
-    "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\AirDrop.Infra.Data\\AirDrop.Infra.Data.csproj": {
+    "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\Src\\AirDrop.Infra.Data\\AirDrop.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\AirDrop.Infra.Data\\AirDrop.Infra.Data.csproj",
+        "projectUniqueName": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\Src\\AirDrop.Infra.Data\\AirDrop.Infra.Data.csproj",
         "projectName": "AirDrop.Infra.Data",
-        "projectPath": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\AirDrop.Infra.Data\\AirDrop.Infra.Data.csproj",
-        "packagesPath": "C:\\Users\\Hamid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\AirDrop.Infra.Data\\obj\\",
+        "projectPath": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\Src\\AirDrop.Infra.Data\\AirDrop.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\hamid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\Src\\AirDrop.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hamid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hamid\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -178,8 +196,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\AirDrop.Domain\\AirDrop.Domain.csproj": {
-                "projectPath": "C:\\Users\\Hamid\\Documents\\AirDrop\\AirDrop\\Src\\AirDrop.Domain\\AirDrop.Domain.csproj"
+              "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\Src\\AirDrop.Domain\\AirDrop.Domain.csproj": {
+                "projectPath": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\Src\\AirDrop.Domain\\AirDrop.Domain.csproj"
               }
             }
           }
@@ -219,6 +237,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Microsoft.IdentityModel.Protocols": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.2, )"
             }
           },
           "imports": [
@@ -238,6 +264,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
         }
       }
     }

@@ -1,0 +1,6 @@
+C:\Users\Hamid\Documents\AirDrop\AirDrop\Common\Common.Domain\bin\Release\net8.0\linux-x64\publish\Common.Domain.dll
+C:\Users\Hamid\Documents\AirDrop\AirDrop\Common\Common.Domain\bin\Release\net8.0\linux-x64\publish\Common.Domain.deps.json
+C:\Users\Hamid\Documents\AirDrop\AirDrop\Common\Common.Domain\bin\Release\net8.0\linux-x64\publish\Common.Domain.pdb
+C:\Users\Hamid\Documents\AirDrop\AirDrop\Common\Common.Domain\bin\Release\net8.0\linux-x64\publish\MediatR.dll
+C:\Users\Hamid\Documents\AirDrop\AirDrop\Common\Common.Domain\bin\Release\net8.0\linux-x64\publish\MediatR.Contracts.dll
+C:\Users\Hamid\Documents\AirDrop\AirDrop\Common\Common.Domain\bin\Release\net8.0\linux-x64\publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll

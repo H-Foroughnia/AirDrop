@@ -141,7 +141,7 @@
   {
     "ContainingType": "AirDrop.EndPoint.Controllers.AuthController",
     "Method": "TelegramAuth",
-    "RelativePath": "auth/telegram",
+    "RelativePath": "api/Auth/telegram",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -187,7 +187,7 @@
   {
     "ContainingType": "AirDrop.EndPoint.Controllers.CategoryController",
     "Method": "GetAllTaskCategories",
-    "RelativePath": "Category",
+    "RelativePath": "api/Category",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -207,7 +207,7 @@
   {
     "ContainingType": "AirDrop.EndPoint.Controllers.TaskImageController",
     "Method": "GetTaskByCategory",
-    "RelativePath": "TaskImage",
+    "RelativePath": "api/TaskImage",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -234,7 +234,7 @@
   {
     "ContainingType": "AirDrop.EndPoint.Controllers.TaskImageController",
     "Method": "DoTask",
-    "RelativePath": "TaskImage",
+    "RelativePath": "api/TaskImage",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
