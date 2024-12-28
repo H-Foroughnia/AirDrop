@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AirDrop.EndPoint")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a6aa40f7fb3cbd429ee95097e84ba7b862bdae6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7fb97621af257ee0c5ca1ac652762d67e7b7d08")]
 [assembly: System.Reflection.AssemblyProductAttribute("AirDrop.EndPoint")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AirDrop.EndPoint")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
