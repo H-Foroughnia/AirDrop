@@ -44,13 +44,13 @@ namespace AirDrop.EndPoint.Controllers
                     request.lastName,
                     request.username
                 );
-                return Ok(user);
+                //return Ok(user);
 
-                //var jwtToken = GenerateJwtToken(user);
+                var jwtToken = GenerateJwtToken(user);
 
-                //_logger.LogInformation("User authenticated successfully. Token generated for UserId: {UserId}", user.Id);
+                _logger.LogInformation("User authenticated successfully. Token generated for UserId: {UserId}", user.Id);
 
-                //return Ok(new { Token = jwtToken, User = user });
+                return Ok(new { Token = jwtToken, User = user });
             }
             catch (Exception ex)
             {
@@ -66,12 +66,12 @@ namespace AirDrop.EndPoint.Controllers
 
             var claims = new[]
             {
-            new Claim(JwtRegisteredClaimNames.Sub, user.Id),
-            new Claim(JwtRegisteredClaimNames.Name, user.Username ?? ""),
-            new Claim(JwtRegisteredClaimNames.GivenName, user.FirstName ?? ""),
-            new Claim(JwtRegisteredClaimNames.FamilyName, user.LastName ?? ""),
-            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
-        };
+                new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
+                new Claim(JwtRegisteredClaimNames.Name, user.Username?.ToString() ?? ""),
+                new Claim(JwtRegisteredClaimNames.GivenName, user.FirstName?.ToString() ?? ""),
+                new Claim(JwtRegisteredClaimNames.FamilyName, user.LastName?.ToString() ?? ""),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+            };
 
             var token = new JwtSecurityToken(
                 issuer: "ourAirDrop",
@@ -83,5 +83,6 @@ namespace AirDrop.EndPoint.Controllers
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
+
     }
 }

@@ -14,17 +14,17 @@ public class UserService : IUserService
     }
 
 
-    public async Task<User> AuthenticateOrRegisterTelegramUserAsync(string telegramId, string firstName, string lastName, string username)
+    public async Task<User> AuthenticateOrRegisterTelegramUserAsync(string id, string first_name, string last_name, string username)
     {
-        var user = await _userRepository.GetUserByTelegramIdAsync(telegramId);
+        var user = await _userRepository.GetUserByTelegramIdAsync(id);
 
         if (user == null)
         {
             user = new User
             {
-                TelegramId = telegramId,
-                FirstName = firstName,
-                LastName = lastName,
+                TelegramId = id,
+                FirstName = first_name,
+                LastName = last_name,
                 Username = username,
                 CreationDate = DateTime.UtcNow,
                 IsDelete = false

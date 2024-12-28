@@ -605,10 +605,10 @@ C:\Users\hamid\OneDrive\Documents\AirDrop\Src\EndPoints\AirDrop.EndPoint\obj\Deb
 C:\Users\hamid\OneDrive\Documents\AirDrop\Src\EndPoints\AirDrop.EndPoint\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AirDrop.EndPoint.props
 C:\Users\hamid\OneDrive\Documents\AirDrop\Src\EndPoints\AirDrop.EndPoint\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AirDrop.EndPoint.props
 C:\Users\hamid\OneDrive\Documents\AirDrop\Src\EndPoints\AirDrop.EndPoint\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\hamid\OneDrive\Documents\AirDrop\Src\EndPoints\AirDrop.EndPoint\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\hamid\OneDrive\Documents\AirDrop\Src\EndPoints\AirDrop.EndPoint\obj\Debug\net8.0\AirDrop..0863FA1F.Up2Date
 C:\Users\hamid\OneDrive\Documents\AirDrop\Src\EndPoints\AirDrop.EndPoint\obj\Debug\net8.0\AirDrop.EndPoint.dll
 C:\Users\hamid\OneDrive\Documents\AirDrop\Src\EndPoints\AirDrop.EndPoint\obj\Debug\net8.0\refint\AirDrop.EndPoint.dll
 C:\Users\hamid\OneDrive\Documents\AirDrop\Src\EndPoints\AirDrop.EndPoint\obj\Debug\net8.0\AirDrop.EndPoint.pdb
 C:\Users\hamid\OneDrive\Documents\AirDrop\Src\EndPoints\AirDrop.EndPoint\obj\Debug\net8.0\AirDrop.EndPoint.genruntimeconfig.cache
 C:\Users\hamid\OneDrive\Documents\AirDrop\Src\EndPoints\AirDrop.EndPoint\obj\Debug\net8.0\ref\AirDrop.EndPoint.dll
+C:\Users\hamid\OneDrive\Documents\AirDrop\Src\EndPoints\AirDrop.EndPoint\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
