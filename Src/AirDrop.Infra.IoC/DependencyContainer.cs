@@ -21,6 +21,8 @@ public class DependencyContainer
 
         #endregion
 
+        services.AddScoped<IUserService, UserService>();
+        services.AddScoped<IUserRepository, UserRepository>();
         services.AddScoped<ITaskImageRepository, TaskImageRepository>();
         services.AddScoped<ITaskImageService, TaskImageService>();
 
