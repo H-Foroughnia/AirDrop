@@ -44,12 +44,13 @@ namespace AirDrop.EndPoint.Controllers
                     request.LastName,
                     request.Username
                 );
+                return Ok(user);
 
-                var jwtToken = GenerateJwtToken(user);
+                //var jwtToken = GenerateJwtToken(user);
 
-                _logger.LogInformation("User authenticated successfully. Token generated for UserId: {UserId}", user.Id);
+                //_logger.LogInformation("User authenticated successfully. Token generated for UserId: {UserId}", user.Id);
 
-                return Ok(new { Token = jwtToken, User = user });
+                //return Ok(new { Token = jwtToken, User = user });
             }
             catch (Exception ex)
             {
