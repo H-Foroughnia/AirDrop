@@ -41,6 +41,7 @@ builder.Services.AddControllersWithViews();
 //mvc
 
 builder.Services.AddControllers();
+builder.Services.AddLogging();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
