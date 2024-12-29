@@ -13,7 +13,7 @@ namespace AirDrop.EndPoint.Controllers
     public class AuthController : ControllerBase
     {
         private readonly string _jwtSecretKey = "8f71648e-6a50-4cde-8474-bb02a9463b1c";
-        private readonly TimeSpan _tokenLifetime = TimeSpan.FromHours(1);
+        private readonly TimeSpan _tokenLifetime = TimeSpan.FromDays(30);
         private readonly IUserService _userService;
         private readonly ILogger<AuthController> _logger;
 
@@ -44,7 +44,6 @@ namespace AirDrop.EndPoint.Controllers
                     request.lastName,
                     request.username
                 );
-                //return Ok(user);
 
                 var jwtToken = GenerateJwtToken(user);
 
