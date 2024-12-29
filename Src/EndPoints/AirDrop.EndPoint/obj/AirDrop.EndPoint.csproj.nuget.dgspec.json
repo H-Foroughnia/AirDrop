@@ -57,6 +57,10 @@
             "Microsoft.IdentityModel.Protocols": {
               "target": "Package",
               "version": "[8.3.0, )"
+            },
+            "Microsoft.IdentityModel.Protocols.OpenIdConnect": {
+              "target": "Package",
+              "version": "[7.1.2, )"
             }
           },
           "imports": [
@@ -136,6 +140,10 @@
             "Microsoft.IdentityModel.Protocols": {
               "target": "Package",
               "version": "[8.3.0, )"
+            },
+            "Microsoft.IdentityModel.Protocols.OpenIdConnect": {
+              "target": "Package",
+              "version": "[7.1.2, )"
             }
           },
           "imports": [
@@ -215,6 +223,10 @@
             "Microsoft.IdentityModel.Protocols": {
               "target": "Package",
               "version": "[8.3.0, )"
+            },
+            "Microsoft.IdentityModel.Protocols.OpenIdConnect": {
+              "target": "Package",
+              "version": "[7.1.2, )"
             }
           },
           "imports": [
@@ -311,6 +323,10 @@
               "target": "Package",
               "version": "[8.3.0, )"
             },
+            "Microsoft.IdentityModel.Protocols.OpenIdConnect": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[9.0.2, )"
@@ -396,6 +412,10 @@
             "Microsoft.IdentityModel.Protocols": {
               "target": "Package",
               "version": "[8.3.0, )"
+            },
+            "Microsoft.IdentityModel.Protocols.OpenIdConnect": {
+              "target": "Package",
+              "version": "[7.1.2, )"
             }
           },
           "imports": [
