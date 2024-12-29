@@ -14,9 +14,12 @@ C:\Users\hamid\OneDrive\Documents\AirDrop\publish\Microsoft.Extensions.Hosting.A
 C:\Users\hamid\OneDrive\Documents\AirDrop\publish\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\hamid\OneDrive\Documents\AirDrop\publish\Microsoft.Extensions.Primitives.dll
 C:\Users\hamid\OneDrive\Documents\AirDrop\publish\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\hamid\OneDrive\Documents\AirDrop\publish\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\hamid\OneDrive\Documents\AirDrop\publish\Microsoft.IdentityModel.Logging.dll
 C:\Users\hamid\OneDrive\Documents\AirDrop\publish\Microsoft.IdentityModel.Protocols.dll
+C:\Users\hamid\OneDrive\Documents\AirDrop\publish\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\hamid\OneDrive\Documents\AirDrop\publish\Microsoft.IdentityModel.Tokens.dll
+C:\Users\hamid\OneDrive\Documents\AirDrop\publish\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\hamid\OneDrive\Documents\AirDrop\publish\System.IO.Pipelines.dll
 C:\Users\hamid\OneDrive\Documents\AirDrop\publish\AirDrop.Domain.dll
 C:\Users\hamid\OneDrive\Documents\AirDrop\publish\Common.Domain.dll

@@ -60,7 +60,7 @@
             },
             "Microsoft.IdentityModel.Protocols.OpenIdConnect": {
               "target": "Package",
-              "version": "[7.1.2, )"
+              "version": "[8.3.0, )"
             }
           },
           "imports": [
@@ -143,7 +143,7 @@
             },
             "Microsoft.IdentityModel.Protocols.OpenIdConnect": {
               "target": "Package",
-              "version": "[7.1.2, )"
+              "version": "[8.3.0, )"
             }
           },
           "imports": [
@@ -242,7 +242,7 @@
             },
             "Microsoft.IdentityModel.Protocols.OpenIdConnect": {
               "target": "Package",
-              "version": "[7.1.2, )"
+              "version": "[8.3.0, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",

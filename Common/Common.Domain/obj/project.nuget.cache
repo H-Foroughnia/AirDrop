@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dNM4K+aq028=",
+  "dgSpecHash": "/de8EMkRCNw=",
   "success": true,
   "projectFilePath": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\Common\\Common.Domain\\Common.Domain.csproj",
   "expectedPackageFiles": [
@@ -8,12 +8,12 @@
     "C:\\Users\\hamid\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\hamid\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\hamid\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.3.0\\microsoft.identitymodel.abstractions.8.3.0.nupkg.sha512",
-    "C:\\Users\\hamid\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.1.2\\microsoft.identitymodel.jsonwebtokens.7.1.2.nupkg.sha512",
+    "C:\\Users\\hamid\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.3.0\\microsoft.identitymodel.jsonwebtokens.8.3.0.nupkg.sha512",
     "C:\\Users\\hamid\\.nuget\\packages\\microsoft.identitymodel.logging\\8.3.0\\microsoft.identitymodel.logging.8.3.0.nupkg.sha512",
     "C:\\Users\\hamid\\.nuget\\packages\\microsoft.identitymodel.protocols\\8.3.0\\microsoft.identitymodel.protocols.8.3.0.nupkg.sha512",
-    "C:\\Users\\hamid\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.1.2\\microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
+    "C:\\Users\\hamid\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\8.3.0\\microsoft.identitymodel.protocols.openidconnect.8.3.0.nupkg.sha512",
     "C:\\Users\\hamid\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.3.0\\microsoft.identitymodel.tokens.8.3.0.nupkg.sha512",
-    "C:\\Users\\hamid\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.1.2\\system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512"
+    "C:\\Users\\hamid\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.3.0\\system.identitymodel.tokens.jwt.8.3.0.nupkg.sha512"
   ],
   "logs": []
 }

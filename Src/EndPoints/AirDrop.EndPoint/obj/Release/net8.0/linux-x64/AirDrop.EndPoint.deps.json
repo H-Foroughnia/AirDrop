@@ -19,6 +19,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.0",
           "Microsoft.IdentityModel.Protocols": "8.3.0",
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.1.2",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.7",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.2",
           "Swashbuckle.AspNetCore": "6.4.0",
@@ -2031,7 +2032,8 @@
         "dependencies": {
           "AirDrop.Domain": "1.0.0",
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
-          "Microsoft.IdentityModel.Protocols": "8.3.0"
+          "Microsoft.IdentityModel.Protocols": "8.3.0",
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.1.2"
         },
         "runtime": {
           "AirDrop.Application.dll": {
@@ -2044,7 +2046,8 @@
         "dependencies": {
           "Common.Domain": "1.0.0",
           "Microsoft.AspNetCore.Http.Features": "5.0.17",
-          "Microsoft.IdentityModel.Protocols": "8.3.0"
+          "Microsoft.IdentityModel.Protocols": "8.3.0",
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.1.2"
         },
         "runtime": {
           "AirDrop.Domain.dll": {
@@ -2059,6 +2062,7 @@
           "Microsoft.EntityFrameworkCore": "9.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0",
           "Microsoft.IdentityModel.Protocols": "8.3.0",
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.1.2",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.2"
         },
         "runtime": {
@@ -2073,7 +2077,8 @@
           "AirDrop.Application": "1.0.0",
           "AirDrop.Infra.Data": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
-          "Microsoft.IdentityModel.Protocols": "8.3.0"
+          "Microsoft.IdentityModel.Protocols": "8.3.0",
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.1.2"
         },
         "runtime": {
           "AirDrop.Infra.IoC.dll": {
@@ -2085,7 +2090,8 @@
       "Common.Domain/1.0.0": {
         "dependencies": {
           "MediatR": "12.4.1",
-          "Microsoft.IdentityModel.Protocols": "8.3.0"
+          "Microsoft.IdentityModel.Protocols": "8.3.0",
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.1.2"
         },
         "runtime": {
           "Common.Domain.dll": {

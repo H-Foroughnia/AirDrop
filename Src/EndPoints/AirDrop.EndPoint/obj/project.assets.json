@@ -1904,11 +1904,11 @@
           }
         }
       },
-      "Microsoft.IdentityModel.Protocols.OpenIdConnect/7.1.2": {
+      "Microsoft.IdentityModel.Protocols.OpenIdConnect/8.3.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.IdentityModel.Protocols": "7.1.2",
-          "System.IdentityModel.Tokens.Jwt": "7.1.2"
+          "Microsoft.IdentityModel.Protocols": "8.3.0",
+          "System.IdentityModel.Tokens.Jwt": "8.3.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {
@@ -3031,7 +3031,7 @@
           "AirDrop.Domain": "1.0.0",
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
           "Microsoft.IdentityModel.Protocols": "8.3.0",
-          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.1.2"
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "8.3.0"
         },
         "compile": {
           "bin/placeholder/AirDrop.Application.dll": {}
@@ -3047,7 +3047,7 @@
           "Common.Domain": "1.0.0",
           "Microsoft.AspNetCore.Http.Features": "5.0.17",
           "Microsoft.IdentityModel.Protocols": "8.3.0",
-          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.1.2"
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "8.3.0"
         },
         "compile": {
           "bin/placeholder/AirDrop.Domain.dll": {}
@@ -3064,7 +3064,7 @@
           "Microsoft.EntityFrameworkCore": "9.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0",
           "Microsoft.IdentityModel.Protocols": "8.3.0",
-          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.1.2",
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "8.3.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.2"
         },
         "compile": {
@@ -3082,7 +3082,7 @@
           "AirDrop.Infra.Data": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
           "Microsoft.IdentityModel.Protocols": "8.3.0",
-          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.1.2"
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "8.3.0"
         },
         "compile": {
           "bin/placeholder/AirDrop.Infra.IoC.dll": {}
@@ -3097,7 +3097,7 @@
         "dependencies": {
           "MediatR": "12.4.1",
           "Microsoft.IdentityModel.Protocols": "8.3.0",
-          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.1.2"
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "8.3.0"
         },
         "compile": {
           "bin/placeholder/Common.Domain.dll": {}
@@ -6204,15 +6204,14 @@
         "microsoft.identitymodel.protocols.nuspec"
       ]
     },
-    "Microsoft.IdentityModel.Protocols.OpenIdConnect/7.1.2": {
-      "sha512": "6lHQoLXhnMQ42mGrfDkzbIOR3rzKM1W1tgTeMPLgLCqwwGw0d96xFi/UiX/fYsu7d6cD5MJiL3+4HuI8VU+sVQ==",
+    "Microsoft.IdentityModel.Protocols.OpenIdConnect/8.3.0": {
+      "sha512": "kwHswQYvRbggxanPOdE99bkOCELQkgEjg/GNAGTBcrmAZff849DIEBG/utPVNbVDFNDmR+xi0ublSfofWfNTww==",
       "type": "package",
-      "path": "microsoft.identitymodel.protocols.openidconnect/7.1.2",
+      "path": "microsoft.identitymodel.protocols.openidconnect/8.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net461/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
-        "lib/net461/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
+        "README.md",
         "lib/net462/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
         "lib/net462/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
         "lib/net472/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
@@ -6221,9 +6220,11 @@
         "lib/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
         "lib/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
         "lib/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
+        "lib/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+        "lib/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
         "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
         "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
-        "microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
+        "microsoft.identitymodel.protocols.openidconnect.8.3.0.nupkg.sha512",
         "microsoft.identitymodel.protocols.openidconnect.nuspec"
       ]
     },
@@ -8328,7 +8329,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.0",
       "Microsoft.IdentityModel.Protocols >= 8.3.0",
-      "Microsoft.IdentityModel.Protocols.OpenIdConnect >= 7.1.2",
+      "Microsoft.IdentityModel.Protocols.OpenIdConnect >= 8.3.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.7",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 9.0.2",
       "Swashbuckle.AspNetCore >= 6.4.0",
@@ -8428,7 +8429,7 @@
           },
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": {
             "target": "Package",
-            "version": "[7.1.2, )"
+            "version": "[8.3.0, )"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",

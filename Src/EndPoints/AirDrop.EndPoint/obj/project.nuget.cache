@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EsNpNSExWhc=",
+  "dgSpecHash": "KgaQo5eH3kw=",
   "success": true,
   "projectFilePath": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\Src\\EndPoints\\AirDrop.EndPoint\\AirDrop.EndPoint.csproj",
   "expectedPackageFiles": [
@@ -110,7 +110,7 @@
     "C:\\Users\\hamid\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.3.0\\microsoft.identitymodel.jsonwebtokens.8.3.0.nupkg.sha512",
     "C:\\Users\\hamid\\.nuget\\packages\\microsoft.identitymodel.logging\\8.3.0\\microsoft.identitymodel.logging.8.3.0.nupkg.sha512",
     "C:\\Users\\hamid\\.nuget\\packages\\microsoft.identitymodel.protocols\\8.3.0\\microsoft.identitymodel.protocols.8.3.0.nupkg.sha512",
-    "C:\\Users\\hamid\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.1.2\\microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
+    "C:\\Users\\hamid\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\8.3.0\\microsoft.identitymodel.protocols.openidconnect.8.3.0.nupkg.sha512",
     "C:\\Users\\hamid\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.3.0\\microsoft.identitymodel.tokens.8.3.0.nupkg.sha512",
     "C:\\Users\\hamid\\.nuget\\packages\\microsoft.net.stringtools\\17.8.3\\microsoft.net.stringtools.17.8.3.nupkg.sha512",
     "C:\\Users\\hamid\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
