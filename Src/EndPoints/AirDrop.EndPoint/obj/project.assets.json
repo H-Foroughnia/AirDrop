@@ -8323,6 +8323,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.0",
       "Microsoft.IdentityModel.Protocols >= 8.3.0",
+      "Microsoft.IdentityModel.Protocols.OpenIdConnect >= 7.1.2",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.7",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 9.0.2",
       "Swashbuckle.AspNetCore >= 6.4.0",
@@ -8419,6 +8420,10 @@
           "Microsoft.IdentityModel.Protocols": {
             "target": "Package",
             "version": "[8.3.0, )"
+          },
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": {
+            "target": "Package",
+            "version": "[7.1.2, )"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
