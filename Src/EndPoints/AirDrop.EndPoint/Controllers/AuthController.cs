@@ -4,7 +4,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using AirDrop.Application.Interface;
-using AirDrop.Domain.DTO;
+using AirDrop.Domain.DTO.User;
 
 namespace AirDrop.EndPoint.Controllers
 {

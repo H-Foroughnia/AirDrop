@@ -1,4 +1,4 @@
-﻿namespace AirDrop.Domain.DTO;
+﻿namespace AirDrop.Domain.DTO.User;
 
 public class TelegramAuthRequestDto
 {
