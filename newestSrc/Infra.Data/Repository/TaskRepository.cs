@@ -57,7 +57,10 @@ public class TaskRepository:ITaskRepository
 
     public async Task<IEnumerable<TaskImageModel>> GetAllTasks()
     {
-        return await _context.TaskImages.ToListAsync();
+        return await _context.TaskImages
+            .Include(t => t.Category)
+            .Include(t => t.Label)
+            .ToListAsync();
     }
 
     public void DeleteTask(int id)

@@ -1,7 +1,5 @@
 ﻿using Domain.IRepository;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Build.Framework;
 
 namespace EndPoint.Controllers
 {
