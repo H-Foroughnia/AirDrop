@@ -19,7 +19,7 @@ namespace Domain.Models.Task
         public int StatusId { get; set; }
         public StatusTaskModel Status { get; set; }
         public bool Nude { get; set; } = false; 
-        public bool AiValidate { get; set; } = false; 
+        public bool AiValidate { get; set; } = true; 
         [MaxLength(64)] 
         public string ImageHash { get; set; }
         public DateTime Created { get; set; } = DateTime.UtcNow; 

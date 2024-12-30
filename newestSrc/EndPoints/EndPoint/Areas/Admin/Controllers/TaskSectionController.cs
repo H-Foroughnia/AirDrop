@@ -93,5 +93,52 @@ namespace EndPoint.Areas.Admin.Controllers
 
             return RedirectToAction("Task");
         }
+
+        [HttpGet("EditTask/{id}")]
+        public async Task<IActionResult> EditTask(int id)
+        {
+            var task = await _repository.GetTaskById(id);
+            if (task == null)
+            {
+                return NotFound("Task not found.");
+            }
+
+            var taskCategories = await _repository.GetAllTaskCategories();
+            var taskLabels = await _repository.GetAllTaskLabels();
+
+            var viewModel = new EditTaskImageViewModel()
+            {
+                Id = task.Id,
+                CategoryId = task.CategoryId,
+                LabelId = task.LabelId,
+                SampleImage = task.SampleImage,
+                ImageDescription = task.ImageDescription,
+                LabelDescription = task.LabelDescription,
+                ImagePoints = task.ImagePoints,
+                LabelPoints = task.LabelPoints,
+                TaskCategories = taskCategories,
+                LabelImages = taskLabels
+            };
+
+            return View(viewModel);
+        }
+
+        [HttpPost("EditTask/{id}")]
+        public async Task<IActionResult> EditTask(EditTaskImageViewModel viewModel)
+        {
+            //if (!ModelState.IsValid)
+            //{
+            //    var taskCategories = await _repository.GetAllTaskCategories();
+            //    var taskLabels = await _repository.GetAllTaskLabels();
+            //    viewModel.TaskCategories = taskCategories;
+            //    viewModel.LabelImages = taskLabels;
+            //    return View(viewModel);
+            //}
+
+            await _service.UpdateTaskImage(viewModel);
+            TempData[SuccessMessage] = "Updated successfully.";
+
+            return RedirectToAction("Task");
+        }
     }
 }

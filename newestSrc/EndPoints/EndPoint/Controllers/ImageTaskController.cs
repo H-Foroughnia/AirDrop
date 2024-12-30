@@ -1,4 +1,7 @@
-﻿using Domain.IRepository;
+﻿using Application.IService;
+using Domain.DTOs.Task;
+using Domain.IRepository;
+using Domain.Models.Task;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EndPoint.Controllers
@@ -7,15 +10,17 @@ namespace EndPoint.Controllers
     [ApiController]
     public class ImageTaskController : ControllerBase
     {
+        private readonly ITaskService _service;
         private readonly ITaskRepository _taskRepository;
 
-        public ImageTaskController(ITaskRepository taskRepository)
+        public ImageTaskController(ITaskRepository taskRepository, ITaskService service)
         {
             _taskRepository = taskRepository;
+            _service = service;
         }
 
-        [HttpGet("GetAllTasks")]
-        public async Task<IActionResult> GetAllImageTasks()
+        [HttpGet("GetImageTasks")]
+        public async Task<IActionResult> GetImageTasks()
         {
             try
             {
@@ -32,5 +37,16 @@ namespace EndPoint.Controllers
             }
         }
 
+        [HttpPost("DoImageTask")]
+        public async Task<ActionResult<ImageTaskDoneModel>> DoImageTask([FromForm] ImageTaskDoneDto doneDto)
+        {
+            if (doneDto == null)
+            {
+                return BadRequest("Invalid image task data.");
+            }
+
+            await _service.DoImageTaskAsync(doneDto);
+            return Ok(doneDto);
+        }
     }
 }

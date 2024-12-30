@@ -218,10 +218,171 @@
         }
       }
     },
-    "/api/ImageTask/GetAllTasks": {
+    "/api/ImageTask/GetImageTasks": {
       "get": {
         "tags": [
           "ImageTask"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ImageTask/DoImageTask": {
+      "post": {
+        "tags": [
+          "ImageTask"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "UserId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "TaskId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "UploadedImage": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "StatusId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Nude": {
+                    "type": "boolean"
+                  },
+                  "AiValidate": {
+                    "type": "boolean"
+                  },
+                  "ImageHash": {
+                    "type": "string"
+                  },
+                  "Created": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "Updated": {
+                    "type": "string",
+                    "format": "date-time"
+                  }
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "UserId": {
+                  "style": "form"
+                },
+                "TaskId": {
+                  "style": "form"
+                },
+                "UploadedImage": {
+                  "style": "form"
+                },
+                "StatusId": {
+                  "style": "form"
+                },
+                "Nude": {
+                  "style": "form"
+                },
+                "AiValidate": {
+                  "style": "form"
+                },
+                "ImageHash": {
+                  "style": "form"
+                },
+                "Created": {
+                  "style": "form"
+                },
+                "Updated": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ImageTaskDoneModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ImageTaskDoneModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ImageTaskDoneModel"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Admin/StatusTask": {
+      "get": {
+        "tags": [
+          "StatusSection"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Admin/AddStatusTask": {
+      "get": {
+        "tags": [
+          "StatusSection"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "StatusSection"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Status",
+            "in": "query",
+            "schema": {
+              "maxLength": 16,
+              "type": "string"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -417,10 +578,276 @@
           }
         }
       }
+    },
+    "/Admin/EditTask/{id}": {
+      "get": {
+        "tags": [
+          "TaskSection"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "TaskSection"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "CategoryId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "LabelId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "SampleImage",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ImageDescription",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "LabelDescription",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ImagePoints",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "LabelPoints",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "TaskCategories",
+            "in": "query",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/CategoryTaskModel"
+              }
+            }
+          },
+          {
+            "name": "LabelImages",
+            "in": "query",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/LabelImageModel"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
     "schemas": {
+      "CategoryTaskModel": {
+        "required": [
+          "category"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "category": {
+            "maxLength": 16,
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ImageTaskDoneModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
+          },
+          "taskId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "task": {
+            "$ref": "#/components/schemas/TaskImageModel"
+          },
+          "uploadedImage": {
+            "type": "string",
+            "nullable": true
+          },
+          "statusId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "status": {
+            "$ref": "#/components/schemas/StatusTaskModel"
+          },
+          "nude": {
+            "type": "boolean"
+          },
+          "aiValidate": {
+            "type": "boolean"
+          },
+          "imageHash": {
+            "maxLength": 64,
+            "type": "string",
+            "nullable": true
+          },
+          "created": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updated": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LabelImageModel": {
+        "required": [
+          "label"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "label": {
+            "maxLength": 16,
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "StatusTaskModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "status": {
+            "maxLength": 16,
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TaskImageModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "categoryId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "category": {
+            "$ref": "#/components/schemas/CategoryTaskModel"
+          },
+          "labelId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "label": {
+            "$ref": "#/components/schemas/LabelImageModel"
+          },
+          "sampleImage": {
+            "type": "string",
+            "nullable": true
+          },
+          "imageDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "labelDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "imagePoints": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "labelPoints": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
       "TelegramAuthRequestDto": {
         "type": "object",
         "properties": {
@@ -437,6 +864,32 @@
             "nullable": true
           },
           "username": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "User": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "telegramId": {
+            "type": "string",
+            "nullable": true
+          },
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastName": {
             "type": "string",
             "nullable": true
           }

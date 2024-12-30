@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NSPT1FxNfAOHiiL+E0BasuF3NpYxnmdn3ApzmDd4SHU=",
+  "Hash": "3pUukAGkKPMqOmO9mF+AgQpVlrjml8wcglbM27FTYzg=",
   "Source": "EndPoint",
   "BasePath": "_content/EndPoint",
   "Mode": "Default",
@@ -9005,6 +9005,27 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\taskSamples\\575b4bf4-d856-41f5-99f3-e3553cbc4521_WIN_20241103_15_06_30_Pro.jpg"
     },
     {
+      "Identity": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\Uploads\\taskSamples\\782a73e0-6ddc-4a67-9ed0-7509caafab30_کاور بیررونی.webp",
+      "SourceId": "EndPoint",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\",
+      "BasePath": "_content/EndPoint",
+      "RelativePath": "Uploads/taskSamples/782a73e0-6ddc-4a67-9ed0-7509caafab30_کاور بیررونی#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "udlstww2h1",
+      "Integrity": "vmfsTjVwDMaoJnS9tFc8IFTZF2JqNWByJaLw0macvIM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\taskSamples\\782a73e0-6ddc-4a67-9ed0-7509caafab30_کاور بیررونی.webp"
+    },
+    {
       "Identity": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\Uploads\\taskSamples\\a72861ee-f03d-4df6-90ca-3f1b1e2d3e80_6019586262836560688.jpg",
       "SourceId": "EndPoint",
       "SourceType": "Discovered",
@@ -9087,6 +9108,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\taskSamples\\daf79b83-d82f-455d-a7bc-8ae4303989d5_IMG.png"
+    },
+    {
+      "Identity": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\Uploads\\taskSamples\\ec21d05f-a4e5-4aaf-94f7-3358e90760fc_کاور بیررونی.webp",
+      "SourceId": "EndPoint",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\",
+      "BasePath": "_content/EndPoint",
+      "RelativePath": "Uploads/taskSamples/ec21d05f-a4e5-4aaf-94f7-3358e90760fc_کاور بیررونی#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "udlstww2h1",
+      "Integrity": "vmfsTjVwDMaoJnS9tFc8IFTZF2JqNWByJaLw0macvIM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\taskSamples\\ec21d05f-a4e5-4aaf-94f7-3358e90760fc_کاور بیررونی.webp"
+    },
+    {
+      "Identity": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\Uploads\\taskSamples\\fa0445c2-1bab-4066-9bc5-aab6e2999c52_کاور بیررونی.webp",
+      "SourceId": "EndPoint",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\",
+      "BasePath": "_content/EndPoint",
+      "RelativePath": "Uploads/taskSamples/fa0445c2-1bab-4066-9bc5-aab6e2999c52_کاور بیررونی#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "udlstww2h1",
+      "Integrity": "vmfsTjVwDMaoJnS9tFc8IFTZF2JqNWByJaLw0macvIM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\taskSamples\\fa0445c2-1bab-4066-9bc5-aab6e2999c52_کاور بیررونی.webp"
+    },
+    {
+      "Identity": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\Uploads\\taskSamples\\fa60ea87-37e9-4b6f-9b9f-34483911ae5c_کاور بیررونی.webp",
+      "SourceId": "EndPoint",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\",
+      "BasePath": "_content/EndPoint",
+      "RelativePath": "Uploads/taskSamples/fa60ea87-37e9-4b6f-9b9f-34483911ae5c_کاور بیررونی#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "udlstww2h1",
+      "Integrity": "vmfsTjVwDMaoJnS9tFc8IFTZF2JqNWByJaLw0macvIM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\taskSamples\\fa60ea87-37e9-4b6f-9b9f-34483911ae5c_کاور بیررونی.webp"
     }
   ],
   "Endpoints": [
@@ -44187,6 +44271,88 @@
       ]
     },
     {
+      "Route": "Uploads/taskSamples/782a73e0-6ddc-4a67-9ed0-7509caafab30_کاور بیررونی.udlstww2h1.webp",
+      "AssetFile": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\Uploads\\taskSamples\\782a73e0-6ddc-4a67-9ed0-7509caafab30_کاور بیررونی.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "127476"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vmfsTjVwDMaoJnS9tFc8IFTZF2JqNWByJaLw0macvIM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 17:57:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "udlstww2h1"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/taskSamples/782a73e0-6ddc-4a67-9ed0-7509caafab30_کاور بیررونی.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vmfsTjVwDMaoJnS9tFc8IFTZF2JqNWByJaLw0macvIM="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/taskSamples/782a73e0-6ddc-4a67-9ed0-7509caafab30_کاور بیررونی.webp",
+      "AssetFile": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\Uploads\\taskSamples\\782a73e0-6ddc-4a67-9ed0-7509caafab30_کاور بیررونی.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "127476"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vmfsTjVwDMaoJnS9tFc8IFTZF2JqNWByJaLw0macvIM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 17:57:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vmfsTjVwDMaoJnS9tFc8IFTZF2JqNWByJaLw0macvIM="
+        }
+      ]
+    },
+    {
       "Route": "Uploads/taskSamples/a72861ee-f03d-4df6-90ca-3f1b1e2d3e80_6019586262836560688.09i6f61yyb.jpg",
       "AssetFile": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\Uploads\\taskSamples\\a72861ee-f03d-4df6-90ca-3f1b1e2d3e80_6019586262836560688.jpg",
       "Selectors": [],
@@ -44511,6 +44677,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-FRhcbX5fSEBAq6o1TAr5adgaj5to2n77m8xNB7r2HQQ="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/taskSamples/ec21d05f-a4e5-4aaf-94f7-3358e90760fc_کاور بیررونی.udlstww2h1.webp",
+      "AssetFile": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\Uploads\\taskSamples\\ec21d05f-a4e5-4aaf-94f7-3358e90760fc_کاور بیررونی.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "127476"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vmfsTjVwDMaoJnS9tFc8IFTZF2JqNWByJaLw0macvIM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 17:54:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "udlstww2h1"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/taskSamples/ec21d05f-a4e5-4aaf-94f7-3358e90760fc_کاور بیررونی.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vmfsTjVwDMaoJnS9tFc8IFTZF2JqNWByJaLw0macvIM="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/taskSamples/ec21d05f-a4e5-4aaf-94f7-3358e90760fc_کاور بیررونی.webp",
+      "AssetFile": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\Uploads\\taskSamples\\ec21d05f-a4e5-4aaf-94f7-3358e90760fc_کاور بیررونی.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "127476"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vmfsTjVwDMaoJnS9tFc8IFTZF2JqNWByJaLw0macvIM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 17:54:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vmfsTjVwDMaoJnS9tFc8IFTZF2JqNWByJaLw0macvIM="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/taskSamples/fa0445c2-1bab-4066-9bc5-aab6e2999c52_کاور بیررونی.udlstww2h1.webp",
+      "AssetFile": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\Uploads\\taskSamples\\fa0445c2-1bab-4066-9bc5-aab6e2999c52_کاور بیررونی.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "127476"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vmfsTjVwDMaoJnS9tFc8IFTZF2JqNWByJaLw0macvIM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 17:53:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "udlstww2h1"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/taskSamples/fa0445c2-1bab-4066-9bc5-aab6e2999c52_کاور بیررونی.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vmfsTjVwDMaoJnS9tFc8IFTZF2JqNWByJaLw0macvIM="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/taskSamples/fa0445c2-1bab-4066-9bc5-aab6e2999c52_کاور بیررونی.webp",
+      "AssetFile": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\Uploads\\taskSamples\\fa0445c2-1bab-4066-9bc5-aab6e2999c52_کاور بیررونی.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "127476"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vmfsTjVwDMaoJnS9tFc8IFTZF2JqNWByJaLw0macvIM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 17:53:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vmfsTjVwDMaoJnS9tFc8IFTZF2JqNWByJaLw0macvIM="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/taskSamples/fa60ea87-37e9-4b6f-9b9f-34483911ae5c_کاور بیررونی.udlstww2h1.webp",
+      "AssetFile": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\Uploads\\taskSamples\\fa60ea87-37e9-4b6f-9b9f-34483911ae5c_کاور بیررونی.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "127476"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vmfsTjVwDMaoJnS9tFc8IFTZF2JqNWByJaLw0macvIM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 17:58:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "udlstww2h1"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/taskSamples/fa60ea87-37e9-4b6f-9b9f-34483911ae5c_کاور بیررونی.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vmfsTjVwDMaoJnS9tFc8IFTZF2JqNWByJaLw0macvIM="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/taskSamples/fa60ea87-37e9-4b6f-9b9f-34483911ae5c_کاور بیررونی.webp",
+      "AssetFile": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\Uploads\\taskSamples\\fa60ea87-37e9-4b6f-9b9f-34483911ae5c_کاور بیررونی.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "127476"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vmfsTjVwDMaoJnS9tFc8IFTZF2JqNWByJaLw0macvIM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 17:58:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vmfsTjVwDMaoJnS9tFc8IFTZF2JqNWByJaLw0macvIM="
         }
       ]
     }

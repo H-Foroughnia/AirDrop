@@ -21,6 +21,14 @@ public class TaskRepository:ITaskRepository
         await _context.CategoryTasks.AddAsync(model);
     }
 
+    public async Task<TaskImageModel> GetTaskById(int taskId)
+    {
+        return await _context.TaskImages
+            .Include(t => t.Category)
+            .Include(t => t.Label)
+            .FirstOrDefaultAsync(t => t.Id == taskId);
+    }
+
     public async Task AddTaskLabel(LabelImageModel model)
     {
         await _context.LabelImages.AddAsync(model);
@@ -63,6 +71,12 @@ public class TaskRepository:ITaskRepository
             .ToListAsync();
     }
 
+    public async Task UpdateTask(TaskImageModel task)
+    {
+        _context.TaskImages.Update(task);
+        await _context.SaveChangesAsync();
+    }
+
     public void DeleteTask(int id)
     {
         var task = _context.TaskImages.Find(id);
@@ -73,6 +87,22 @@ public class TaskRepository:ITaskRepository
 
         _context.TaskImages.Remove(task);
         _context.SaveChanges();
+    }
+
+    public async Task<ImageTaskDoneModel> AddImageTaskAsync(ImageTaskDoneModel imageTask)
+    {
+        _context.TaskDones.Add(imageTask);
+        await _context.SaveChangesAsync();
+        return imageTask;
+    }
+
+    public async Task<ImageTaskDoneModel> GetImageTaskByIdAsync(int id)
+    {
+        return await _context.TaskDones
+            .Include(x => x.User)
+            .Include(x => x.Task)
+            .Include(x => x.Status)
+            .FirstOrDefaultAsync(x => x.Id == id);
     }
 
     public async Task SaveChange()

@@ -1,6 +1,7 @@
 ﻿using Domain.Models.Category;
 using Domain.Models.Friend;
 using Domain.Models.Label;
+using Domain.Models.Status;
 using Domain.Models.Task;
 using Domain.Models.User;
 using Microsoft.EntityFrameworkCore;
@@ -20,5 +21,7 @@ namespace Infra.Data.Context
         public DbSet<TaskEarnModel> TaskEarns { get; set; }
         public DbSet<TaskModel> Tasks { get; set; }
         public DbSet<FriendsModel> Friends { get; set; }
+        public DbSet<StatusTaskModel> StatusTasks { get; set; }
+        public DbSet<ImageTaskDoneModel> TaskDones { get; set; }
     }
 }

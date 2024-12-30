@@ -20,6 +20,7 @@ namespace Infra.IoC
             services.AddScoped<ITaskService, TaskService>();
             services.AddScoped<IFriendsService, FriendsService>();
             services.AddScoped<IFriendsRepository, FriendsRepository>();
+            services.AddScoped<IStatusRepository, StatusRepository>();
 
         }
     }

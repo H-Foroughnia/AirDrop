@@ -1,4 +1,5 @@
 ﻿using Application.IService;
+using Domain.DTOs.Task;
 using Domain.IRepository;
 using Domain.Models.Category;
 using Domain.Models.Label;
@@ -60,5 +61,54 @@ public class TaskService:ITaskService
         await _repository.SaveChange();
 
         return AddTaskImageResult.Success;
+    }
+
+    public async Task UpdateTaskImage(EditTaskImageViewModel viewModel)
+    {
+        var task = await _repository.GetTaskById(viewModel.Id);
+        if (task == null)
+        {
+            throw new Exception("Task not found.");
+        }
+
+        task.CategoryId = viewModel.CategoryId;
+        task.LabelId = viewModel.LabelId;
+
+        if (!string.IsNullOrWhiteSpace(viewModel.SampleImage))
+        {
+            task.SampleImage = viewModel.SampleImage;
+        }
+
+        task.ImageDescription = viewModel.ImageDescription;
+        task.LabelDescription = viewModel.LabelDescription;
+        task.ImagePoints = viewModel.ImagePoints;
+        task.LabelPoints = viewModel.LabelPoints;
+
+        await _repository.UpdateTask(task);
+    }
+
+    public async Task DoImageTaskAsync(ImageTaskDoneDto imageTask)
+    {
+        string FilePath = _uploadHelper.Upload(imageTask.UploadedImage, "taskSamples");
+        var hash = Guid.NewGuid();
+        var taskDone = new ImageTaskDoneModel()
+        {
+            AiValidate = true,
+            ImageHash = hash.ToString(),
+            Nude = false,
+            StatusId = imageTask.StatusId,
+            Created = DateTime.UtcNow,
+            Updated = DateTime.UtcNow,
+            TaskId = imageTask.TaskId,
+            UploadedImage = FilePath,
+            UserId = imageTask.UserId
+        };
+        await _repository.AddImageTaskAsync(taskDone);
+        await _repository.SaveChange();
+    }
+
+    public Task<ImageTaskDoneModel> GetImageTaskByIdAsync(int id)
+    {
+        throw new NotImplementedException();
     }
 }

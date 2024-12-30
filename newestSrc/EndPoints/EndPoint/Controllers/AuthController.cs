@@ -3,7 +3,6 @@ using System.Security.Claims;
 using System.Text;
 using Application.IService;
 using Domain.DTOs.User;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 
@@ -45,7 +44,6 @@ namespace EndPoint.Controllers
                 var jwtToken = GenerateJwtToken(user);
 
                 _logger.LogInformation("User authenticated successfully. Token generated for UserId: {UserId}", user.Id);
-
                 return Ok(new { Token = jwtToken, User = user });
             }
             catch (Exception ex)
