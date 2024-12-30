@@ -12,10 +12,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 RegisterService(builder.Services);
 
-//builder.WebHost.ConfigureKestrel(options =>
-//{
-//    options.Listen(IPAddress.Any, 5001);
-//});
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.Listen(IPAddress.Any, 5001);
+});
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
