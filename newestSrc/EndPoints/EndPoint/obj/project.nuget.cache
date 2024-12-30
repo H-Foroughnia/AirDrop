@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "chS1XLC1ZEg=",
+  "dgSpecHash": "dMm6ErxTXFc=",
   "success": true,
   "projectFilePath": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\EndPoint.csproj",
   "expectedPackageFiles": [
@@ -166,7 +166,8 @@
     "C:\\Users\\hamid\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
     "C:\\Users\\hamid\\.nuget\\packages\\system.threading.tasks.dataflow\\7.0.0\\system.threading.tasks.dataflow.7.0.0.nupkg.sha512",
     "C:\\Users\\hamid\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\hamid\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
+    "C:\\Users\\hamid\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512",
+    "C:\\Users\\hamid\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\8.0.11\\microsoft.netcore.app.host.linux-x64.8.0.11.nupkg.sha512"
   ],
   "logs": []
 }

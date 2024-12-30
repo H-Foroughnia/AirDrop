@@ -1,0 +1,16 @@
+C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Application\bin\Release\net8.0\linux-x64\Application.deps.json
+C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Application\bin\Release\net8.0\linux-x64\Application.dll
+C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Application\bin\Release\net8.0\linux-x64\Application.pdb
+C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Application\bin\Release\net8.0\linux-x64\Domain.dll
+C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Application\bin\Release\net8.0\linux-x64\Domain.pdb
+C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Application\obj\Release\net8.0\linux-x64\Application.csproj.AssemblyReference.cache
+C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Application\obj\Release\net8.0\linux-x64\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Application\obj\Release\net8.0\linux-x64\Application.AssemblyInfoInputs.cache
+C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Application\obj\Release\net8.0\linux-x64\Application.AssemblyInfo.cs
+C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Application\obj\Release\net8.0\linux-x64\Application.csproj.CoreCompileInputs.cache
+C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Application\obj\Release\net8.0\linux-x64\Application.sourcelink.json
+C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Application\obj\Release\net8.0\linux-x64\Applicat.44B5EDA2.Up2Date
+C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Application\obj\Release\net8.0\linux-x64\Application.dll
+C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Application\obj\Release\net8.0\linux-x64\refint\Application.dll
+C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Application\obj\Release\net8.0\linux-x64\Application.pdb
+C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Application\obj\Release\net8.0\linux-x64\ref\Application.dll

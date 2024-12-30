@@ -1,0 +1,6 @@
+C:\Users\hamid\OneDrive\Documents\AirDrop\publish\Domain.dll
+C:\Users\hamid\OneDrive\Documents\AirDrop\publish\Domain.deps.json
+C:\Users\hamid\OneDrive\Documents\AirDrop\publish\Domain.pdb
+C:\Users\hamid\OneDrive\Documents\AirDrop\publish\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\hamid\OneDrive\Documents\AirDrop\publish\Microsoft.Extensions.Primitives.dll
+C:\Users\hamid\OneDrive\Documents\AirDrop\publish\System.IO.Pipelines.dll
