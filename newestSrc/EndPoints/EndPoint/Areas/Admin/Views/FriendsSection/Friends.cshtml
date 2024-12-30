@@ -1,0 +1,91 @@
+﻿@using Domain.Models.User
+@{
+	ViewData["Title"] = "Users and Friends";
+	var users = ViewBag.Users as IEnumerable<User>;
+	var friends = ViewBag.Friends as IEnumerable<Domain.Models.Friend.FriendsModel>;
+}
+
+<div class="flex">
+	<div class="flex flex-col adminPanel-background-template w-full">
+		<h2 class="font-semibold text-2xl">Friends Management</h2>
+		<div class="flex justify-between items-center py-2 border-b">
+			<h2 class="text-lg font-semibold">View and Manage Friends</h2>
+			<div class="flex space-x-2">
+				<a asp-area="Admin" asp-controller="FriendsSection" asp-action="AddFriend" class="adminPanel-button !rounded-2xl">
+					<img src="~/assets/media/icons/adminPanel-icons/add.svg" width="24" height="24" alt="">
+					Add Friend
+				</a>
+			</div>
+		</div>
+		<div class="">
+			@* <table class="table-auto w-full border-separate border-spacing-y-2  ">
+				<thead>
+					<tr>
+						<th>User name</th>
+						<th>First Name</th>
+						<th>LastName</th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var user in users)
+					{
+						<tr class="bg-mainGray ">
+							<td>
+								<div class="adminPanel-justify-table">
+									<p class="flex space-x-2">
+										@user.Username
+									</p>
+								</div>
+							</td>
+							<td>
+								<div class="adminPanel-justify-table">
+									<p class="flex space-x-2">
+										@user.FirstName
+									</p>
+								</div>
+							</td>
+							<td>
+								<div class="adminPanel-justify-table">
+									<p class="flex space-x-2">
+										@user.LastName
+									</p>
+								</div>
+							</td>
+						</tr>
+					}
+				</tbody>
+
+			</table>
+			<hr /> *@
+			<table class="table-auto w-full border-separate border-spacing-y-2  ">
+				<thead>
+					<tr>
+						<th>User</th>
+						<th>Friend(s)</th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var friend in friends)
+					{
+						<tr class="bg-mainGray ">
+							<td>
+								<div class="adminPanel-justify-table">
+									<p class="flex space-x-2">
+										@friend.User.Username (@friend.User.FirstName @friend.User.LastName)
+									</p>
+								</div>
+							</td>
+							<td>
+								<div class="adminPanel-justify-table">
+									<p class="flex space-x-2">
+										@friend.Friend.FirstName @friend.Friend.LastName (@friend.Friend.Username)
+									</p>
+								</div>
+							</td>
+						</tr>
+					}
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>

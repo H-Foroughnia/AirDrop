@@ -1,0 +1,120 @@
+﻿<div class="flex flex-col lg:w-1/4 bg-white border rounded-2xl mb-4 lg:mb-0  justify-between">
+    <div>
+        <div class="flex p-4 space-x-2  items-center justify-center ">
+            <p>Welcome to Admin Panel!</p>
+        </div>
+        <div class="">
+            <div class="flex flex-col  ">
+                <ul class="menu justify-center w-full p-4 space-y-4 border-y">
+                    <li class="flex w-full justify-between  ">
+                        <a class="flex space-x-2">
+                            <img src="/assets/media/icons/adminPanel-icons/element-plus.svg" alt="">
+                            <p>Dashboard</p>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class=" justify-center w-full  ">
+                    <li class="menu flex w-full justify-between  adminPanel-section-list ">
+                        <div class=" flex space-x-2">
+                            <img id="" src="/assets/media/icons/adminPanel-icons/grid-edit.svg" alt="">
+                            <p>Tasks</p>
+                        </div>
+                        <div class="">
+                            <img src="/assets/media/icons/adminPanel-icons/arrow-down.svg" class="arrow arrowDown" alt="">
+                            <img src="/assets/media/icons/adminPanel-icons/arrow-up.svg" class="arrow arrowUp" alt="">
+                        </div>
+                    </li>
+                    <ul class="submenu  space-y-2 pl-12 pe-8 pb-3">
+	                    <li class="menu-2">
+
+		                    <a asp-area="Admin" asp-controller="TaskSection" asp-action="TaskCategory" class="flex space-x-4 adminPanel-sidebar-list">
+			                    <img src="/assets/media/icons/adminPanel-icons/Circle.svg" alt="">
+			                    <p>Task Category</p>
+		                    </a>
+	                    </li>
+	                    <li class="menu-2">
+
+		                    <a asp-area="Admin" asp-controller="TaskSection" asp-action="TaskLabel" class="flex space-x-4 adminPanel-sidebar-list">
+			                    <img src="/assets/media/icons/adminPanel-icons/Circle.svg" alt="">
+			                    <p>Task Label</p>
+		                    </a>
+	                    </li>
+                        <li class="menu-2">
+
+                            <a asp-area="Admin" asp-controller="TaskSection" asp-action="Task" class="flex space-x-4 adminPanel-sidebar-list">
+                                <img src="/assets/media/icons/adminPanel-icons/Circle.svg" alt="">
+                                <p>Task</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="border "></div>
+                    <li class="menu flex w-full justify-between adminPanel-section-list ">
+                        <div class=" flex space-x-2">
+                            <img id="" src="/assets/media/icons/adminPanel-icons/grid-edit.svg" alt="">
+                            <p>Earn</p>
+                        </div>
+                        <div class="">
+                            <img src="/assets/media/icons/adminPanel-icons/arrow-down.svg" class="arrow arrowDown" alt="">
+                            <img src="/assets/media/icons/adminPanel-icons/arrow-up.svg" class="arrow arrowUp" alt="">
+                        </div>
+                    </li>
+                    <ul class="submenu  space-y-2 pl-12 pe-8 pb-3">
+                        <li class="">
+                            <div class="flex w-full justify-between ">
+                                <a asp-area="Admin" asp-controller="EarnSection" asp-action="TaskForEarn" class="space-x-4 adminPanel-sidebar-list ">
+                                    <img src="/assets/media/icons/adminPanel-icons/Circle.svg" alt="">
+                                    <p>Task For Earn</p>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="">
+                            <div class="flex w-full justify-between ">
+                                <a asp-area="Admin" asp-controller="EarnSection" asp-action="EarnTask" class="space-x-4 adminPanel-sidebar-list">
+                                    <img src="/assets/media/icons/adminPanel-icons/Circle.svg" alt="">
+                                    <p>Earn Task</p>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="border "></div>
+                    <!-- News-start -->
+                    <li class="menu flex w-full justify-between adminPanel-section-list ">
+                        <div class=" flex space-x-2">
+                            <img id="" src="/assets/media/icons/adminPanel-icons/note-2.svg" alt="">
+                            <p>Friends</p>
+                        </div>
+                        <div class="">
+                            <img src="/assets/media/icons/adminPanel-icons/arrow-down.svg" class="arrow arrowDown" alt="">
+                            <img src="/assets/media/icons/adminPanel-icons/arrow-up.svg" class="arrow arrowUp" alt="">
+                        </div>
+                    </li>
+                    <ul class="submenu  space-y-2 pl-12 pe-8 pb-3">
+                        <li class="">
+                            <div class="flex w-full justify-between ">
+                                <a asp-area="Admin" asp-controller="FriendsSection" asp-action="Friends" class="space-x-4 adminPanel-sidebar-list ">
+                                    <img src="/assets/media/icons/adminPanel-icons/Circle.svg" alt="">
+                                    <p>Friends</p>
+                                </a>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <!-- News-end -->
+                    <div class="border "></div>
+
+                    <div class="border"></div>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="border-t">
+        <a href="#" class="userPanel-sidebar-list sidebarhover sidebar-logout">
+            <img src="/assets/media/icons/userPanel-icons/logout.svg" alt="">
+            <p>
+                logout
+            </p>
+        </a>
+    </div>
+</div>
+<!-- adminPanel-sidebar-end -->

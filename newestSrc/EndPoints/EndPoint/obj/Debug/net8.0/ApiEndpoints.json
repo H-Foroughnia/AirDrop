@@ -1,0 +1,299 @@
+[
+  {
+    "ContainingType": "EndPoint.Areas.Admin.Controllers.EarnSectionController",
+    "Method": "EarnTask",
+    "RelativePath": "Admin",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Areas.Admin.Controllers.EarnSectionController",
+    "Method": "AddEarnTask",
+    "RelativePath": "Admin/AddEarnTask",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Areas.Admin.Controllers.EarnSectionController",
+    "Method": "AddEarnTask",
+    "RelativePath": "Admin/AddEarnTask",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TaskId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Icon",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Points",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Link",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Areas.Admin.Controllers.FriendsSectionController",
+    "Method": "AddFriend",
+    "RelativePath": "Admin/AddFriend",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Areas.Admin.Controllers.FriendsSectionController",
+    "Method": "AddFriend",
+    "RelativePath": "Admin/AddFriend",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "FriendId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Areas.Admin.Controllers.TaskSectionController",
+    "Method": "AddTask",
+    "RelativePath": "Admin/AddTask",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Areas.Admin.Controllers.TaskSectionController",
+    "Method": "AddTask",
+    "RelativePath": "Admin/AddTask",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "LabelId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "SampleImage",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageDescription",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LabelDescription",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImagePoints",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "LabelPoints",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Areas.Admin.Controllers.TaskSectionController",
+    "Method": "AddTaskCategory",
+    "RelativePath": "Admin/AddTaskCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Areas.Admin.Controllers.TaskSectionController",
+    "Method": "AddTaskCategory",
+    "RelativePath": "Admin/AddTaskCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Category",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Areas.Admin.Controllers.EarnSectionController",
+    "Method": "AddTaskForEarn",
+    "RelativePath": "Admin/AddTaskForEarn",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Areas.Admin.Controllers.EarnSectionController",
+    "Method": "AddTaskForEarn",
+    "RelativePath": "Admin/AddTaskForEarn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Task",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Areas.Admin.Controllers.TaskSectionController",
+    "Method": "AddTaskLabel",
+    "RelativePath": "Admin/AddTaskLabel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Areas.Admin.Controllers.TaskSectionController",
+    "Method": "AddTaskLabel",
+    "RelativePath": "Admin/AddTaskLabel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Label",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Areas.Admin.Controllers.FriendsSectionController",
+    "Method": "Friends",
+    "RelativePath": "Admin/Friends",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Areas.Admin.Controllers.TaskSectionController",
+    "Method": "Task",
+    "RelativePath": "Admin/Task",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Areas.Admin.Controllers.TaskSectionController",
+    "Method": "TaskCategory",
+    "RelativePath": "Admin/TaskCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Areas.Admin.Controllers.EarnSectionController",
+    "Method": "TaskForEarn",
+    "RelativePath": "Admin/TaskForEarn",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Areas.Admin.Controllers.TaskSectionController",
+    "Method": "TaskLabel",
+    "RelativePath": "Admin/TaskLabel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Controllers.AuthController",
+    "Method": "TelegramAuth",
+    "RelativePath": "api/Auth/telegram",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Domain.DTOs.User.TelegramAuthRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Controllers.ImageTaskController",
+    "Method": "GetAllImageTasks",
+    "RelativePath": "api/ImageTask/GetAllTasks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

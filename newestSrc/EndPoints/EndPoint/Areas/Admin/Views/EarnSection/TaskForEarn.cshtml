@@ -1,0 +1,52 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Task For Earn Management";
+}
+@model IEnumerable<Domain.Models.Task.TaskModel>
+
+<div class="flex">
+    <div class="flex flex-col adminPanel-background-template w-full">
+        <h2 class="font-semibold text-2xl">Task For Earn Management</h2>
+        <div class="flex justify-between items-center py-2 border-b">
+            <h2 class="text-lg font-semibold">Add / Edit/ Delete  Task For Earn</h2>
+            <div class="flex space-x-2">
+                <a asp-area="Admin" asp-controller="EarnSection" asp-action="AddTaskForEarn" class="adminPanel-button !rounded-2xl">
+                    <img src="~/assets/media/icons/adminPanel-icons/add.svg" width="24" height="24" alt="">
+                    Add Task For Earn
+                </a>
+            </div>
+        </div>
+        <div class="">
+            <table class="table-auto w-full border-separate border-spacing-y-2  ">
+                <thead>
+                    <tr>
+                        <th>Task</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var taskCategory in Model)
+                    {
+                        <tr class="bg-mainGray ">
+                            <td>
+                                <div class="adminPanel-justify-table">
+                                    <p class="flex space-x-2">
+                                        @taskCategory.Task
+                                    </p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="adminPanel-justify-table">
+                                    <a class="adminPanel-remove-button !rounded-2xl space-x-2 w-[120px]">
+                                        <img src="~/assets/media/icons/adminPanel-icons/trash.svg" class="img-24" alt="">
+                                        <p class="text-lg">Delete</p>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

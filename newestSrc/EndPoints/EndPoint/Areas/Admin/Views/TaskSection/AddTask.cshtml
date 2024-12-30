@@ -1,0 +1,105 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Add Task";
+}
+@model EndPoint.Areas.Admin.ViewModels.TaskWithCategoriesAndLabelsViewModel
+
+<div class="flex">
+    <div id="myElement" class="flex flex-col adminPanel-background-template w-full">
+        <div class="flex py-2 border-b justify-center">
+            <div class="flex flex-col w-3/5 p-4">
+                <!--postForm-->
+                <form method="post" asp-area="Admin" asp-controller="TaskSection" asp-action="AddTask" enctype="multipart/form-data">
+                    <div class="tab-container ">
+                        <div class="flex flex-col space-y-4">
+                            <div class="file-container">
+                                <div class="flex items-center space-x-4">
+                                    <div class="flex flex-col space-y-2">
+                                        <span id="file-name" class="file-name text-base">No file chosen</span>
+                                        <span id="file-size" class="file-size text-mainGray2"></span>
+                                    </div>
+                                    <div id="preview" class="preview"></div>
+                                </div>
+                                <div class="flex">
+                                    <p>Sample Image:</p>
+                                    <span>*</span>
+                                </div>
+                                <div class="flex rounded-lg bg-mainGray2 border-2 border-black h-48 border-dashed justify-between items-center">
+                                    <div class="flex relative">
+
+                                        <img src="/admin-assets/media/icons/adminPanel-icons/gallery.svg" width="32" height="32" class="absolute top-[30%] left-[48%]" alt="">
+                                        <input asp-for="Task.SampleImage" name="SampleImage" id="file-input" type="file" class="file-input z-10 w-[460px] h-44 cursor-pointer opacity-0 border" required>
+                                        <p class="absolute top-[55%] left-[25%]">
+                                            <span class="underline">browse</span>
+                                            your files SVG, PNG, or JPG
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="space-y-2">
+	                            <div class="flex">
+		                            <p class="">Image Point:</p>
+		                            <span>*</span>
+	                            </div>
+	                            <input asp-for="Task.ImagePoints" name="ImagePoints" type="number"
+	                                   class="w-full border border-mainGray4 rounded-2xl p-2" required>
+                            </div>
+							
+                            <div class="space-y-2">
+	                            <div class="flex">
+                                    <p class="">Label Point:</p>
+		                            <span>*</span>
+	                            </div>
+                                <input asp-for="Task.LabelPoints" name="LabelPoints" type="number"
+	                                   class="w-full border border-mainGray4 rounded-2xl p-2" required>
+                            </div>
+
+                            <div class="space-y-2">
+	                            <div class="flex">
+		                            <p class="">Image Description: </p>
+		                            <span>*</span>
+	                            </div>
+	                            <textarea asp-for="Task.ImageDescription" name="ImageDescription" id="firstEditor" cols="30" rows="9"
+                                          class="w-full border border-mainGray4 rounded-2xl p-2" required></textarea>
+                            </div>
+							
+                            <div class="space-y-2">
+	                            <div class="flex">
+		                            <p class="">Label Description: </p>
+		                            <span>*</span>
+	                            </div>
+                                <textarea asp-for="Task.LabelDescription" name="LabelDescription" id="firstEditor" cols="30" rows="9"
+                                          class="w-full border border-mainGray4 rounded-2xl p-2" required></textarea>
+                            </div>
+
+                            <select asp-for="Task.CategoryId" name="CategoryId" class="w-full border border-mainGray4 bg-white rounded-2xl p-2" required>
+                                <option>Choose Category*</option>
+                                @foreach (var category in Model.TaskCategories)
+                                {
+                                    <option value="@category.Id">@category.Category</option>
+                                }
+                            </select>
+
+                            <select asp-for="Task.LabelId" name="LabelId" class="w-full border border-mainGray4 bg-white rounded-2xl p-2" required>
+                                <option>Choose Label*</option>
+                                @foreach (var label in Model.LabelImages)
+                                {
+                                    <option value="@label.Id">@label.Label</option>
+                                }
+                            </select>
+                            <button type="submit"
+                                    class="adminPanel-button w-full space-x-2 !p-2 !rounded-2xl">
+                                <img src="/assets/media/icons/adminPanel-icons/add.svg" width="24"
+                                     height="24" alt="">
+                                <p class="">
+                                    Add
+                                </p>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

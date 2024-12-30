@@ -1,0 +1,48 @@
+﻿@using Domain.Models.User
+@model Domain.ViewModels.FriendsViewModel
+
+@{
+	ViewData["Title"] = "Add Friend";
+	var users = ViewBag.Users as IEnumerable<User>;
+}
+
+
+<div class="flex">
+    <div id="myElement" class="flex flex-col adminPanel-background-template w-full">
+        <div class="flex py-2 border-b justify-center">
+            <div class="flex flex-col w-3/5 p-4">
+                <!--postForm-->
+                <form method="post" asp-area="Admin" asp-controller="FriendsSection" asp-action="AddFriend" enctype="multipart/form-data">
+                    <div class="tab-container ">
+                        <div class="flex flex-col space-y-4">
+							
+                            <select asp-for="UserId" name="UserId" class="w-full border border-mainGray4 bg-white rounded-2xl p-2" required>
+		                        <option>Choose User*</option>
+		                        @foreach (var user in users)
+		                        {
+                                    <option value="@user.Id">@user.Username (@user.FirstName @user.LastName)</option>
+		                        }
+	                        </select>
+
+                            <select asp-for="FriendId" name="FriendId" class="w-full border border-mainGray4 bg-white rounded-2xl p-2" required>
+                                <option>Choose Friend*</option>
+                                @foreach (var friend in users)
+                                {
+                                    <option value="@friend.Id">@friend.Username (@friend.FirstName @friend.LastName)</option>
+                                }
+                            </select>
+                            <button type="submit"
+                                    class="adminPanel-button w-full space-x-2 !p-2 !rounded-2xl">
+                                <img src="/assets/media/icons/adminPanel-icons/add.svg" width="24"
+                                     height="24" alt="">
+                                <p class="">
+                                    Add
+                                </p>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
