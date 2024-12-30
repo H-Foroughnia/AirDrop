@@ -1,8 +1,9 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "EndPoint",
-    "version": "1.0"
+    "title": "API V1",
+    "description": "Telegram Airdrop API Documentation",
+    "version": "v1"
   },
   "paths": {
     "/api/Auth/telegram": {
@@ -36,7 +37,7 @@
         }
       }
     },
-    "/askForEarn": {
+    "/Admin/TaskForEarn": {
       "get": {
         "tags": [
           "EarnSection"
@@ -48,7 +49,7 @@
         }
       }
     },
-    "/AddTaskForEarn": {
+    "/Admin/AddTaskForEarn": {
       "get": {
         "tags": [
           "EarnSection"
@@ -65,18 +66,9 @@
         ],
         "parameters": [
           {
-            "name": "Id",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
             "name": "Task",
             "in": "query",
             "schema": {
-              "maxLength": 16,
               "type": "string"
             }
           }
@@ -88,7 +80,19 @@
         }
       }
     },
-    "/AddEarnTask": {
+    "/Admin/EarnTask": {
+      "get": {
+        "tags": [
+          "EarnSection"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Admin/AddEarnTask": {
       "get": {
         "tags": [
           "EarnSection"
@@ -104,46 +108,12 @@
           "EarnSection"
         ],
         "parameters": [
-          {
-            "name": "Id",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
           {
             "name": "TaskId",
             "in": "query",
             "schema": {
               "type": "integer",
               "format": "int32"
-            }
-          },
-          {
-            "name": "Task.Id",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "Task.Task",
-            "in": "query",
-            "schema": {
-              "maxLength": 16,
-              "type": "string"
-            }
-          },
-          {
-            "name": "Icon",
-            "in": "query",
-            "required": true,
-            "schema": {
-              "maxLength": 255,
-              "minLength": 0,
-              "type": "string"
             }
           },
           {
@@ -169,6 +139,26 @@
             }
           }
         ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Icon": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "Icon": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -176,7 +166,71 @@
         }
       }
     },
-    "/TaskCategory": {
+    "/Admin/AddFriend": {
+      "get": {
+        "tags": [
+          "FriendsSection"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "FriendsSection"
+        ],
+        "parameters": [
+          {
+            "name": "UserId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "FriendId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Admin/Friends": {
+      "get": {
+        "tags": [
+          "FriendsSection"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ImageTask/GetAllTasks": {
+      "get": {
+        "tags": [
+          "ImageTask"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Admin/TaskCategory": {
       "get": {
         "tags": [
           "TaskSection"
@@ -188,7 +242,7 @@
         }
       }
     },
-    "/AddTaskCategory": {
+    "/Admin/AddTaskCategory": {
       "get": {
         "tags": [
           "TaskSection"
@@ -204,20 +258,10 @@
           "TaskSection"
         ],
         "parameters": [
-          {
-            "name": "Id",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
           {
             "name": "Category",
             "in": "query",
-            "required": true,
             "schema": {
-              "maxLength": 16,
               "type": "string"
             }
           }
@@ -229,7 +273,7 @@
         }
       }
     },
-    "/TaskLabel": {
+    "/Admin/TaskLabel": {
       "get": {
         "tags": [
           "TaskSection"
@@ -241,7 +285,7 @@
         }
       }
     },
-    "/AddTaskLabel": {
+    "/Admin/AddTaskLabel": {
       "get": {
         "tags": [
           "TaskSection"
@@ -257,20 +301,10 @@
           "TaskSection"
         ],
         "parameters": [
-          {
-            "name": "Id",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
           {
             "name": "Label",
             "in": "query",
-            "required": true,
             "schema": {
-              "maxLength": 16,
               "type": "string"
             }
           }
@@ -282,7 +316,7 @@
         }
       }
     },
-    "/Task": {
+    "/Admin/Task": {
       "get": {
         "tags": [
           "TaskSection"
@@ -294,7 +328,7 @@
         }
       }
     },
-    "/AddTask": {
+    "/Admin/AddTask": {
       "get": {
         "tags": [
           "TaskSection"
@@ -310,14 +344,6 @@
           "TaskSection"
         ],
         "parameters": [
-          {
-            "name": "Id",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
           {
             "name": "CategoryId",
             "in": "query",
@@ -327,52 +353,11 @@
             }
           },
           {
-            "name": "Category.Id",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "Category.Category",
-            "in": "query",
-            "required": true,
-            "schema": {
-              "maxLength": 16,
-              "type": "string"
-            }
-          },
-          {
             "name": "LabelId",
             "in": "query",
             "schema": {
               "type": "integer",
               "format": "int32"
-            }
-          },
-          {
-            "name": "Label.Id",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "Label.Label",
-            "in": "query",
-            "required": true,
-            "schema": {
-              "maxLength": 16,
-              "type": "string"
-            }
-          },
-          {
-            "name": "SampleImage",
-            "in": "query",
-            "schema": {
-              "type": "string"
             }
           },
           {
@@ -406,6 +391,26 @@
             }
           }
         ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "SampleImage": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "SampleImage": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"

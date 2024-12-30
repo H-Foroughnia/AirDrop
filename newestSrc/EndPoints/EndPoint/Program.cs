@@ -7,6 +7,7 @@ using Infra.Data.Context;
 using Infra.IoC;
 using Application.IService;
 using EndPoint.Utils;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -35,6 +36,16 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "API V1",
+        Version = "v1",
+        Description = "Telegram Airdrop API Documentation"
+    });
+});
+
 builder.Services.AddScoped<IFileUploadHelper, FileUploadHelper>();
 
 builder.Services.AddControllersWithViews();
@@ -48,7 +59,11 @@ builder.Logging.AddConsole();
 var app = builder.Build();
 
 app.UseSwagger();
-app.UseSwaggerUI();
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "API V1");
+    c.RoutePrefix = string.Empty;
+});
 
 app.UseHttpsRedirection();
 

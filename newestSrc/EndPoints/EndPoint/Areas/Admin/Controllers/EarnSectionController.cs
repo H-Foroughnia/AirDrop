@@ -42,6 +42,7 @@ namespace EndPoint.Areas.Admin.Controllers
             return RedirectToAction("TaskForEarn");
         }
 
+        [HttpGet("EarnTask")]
         public async Task<IActionResult> EarnTask()
         {
             var earnTasks = await _repository.GetAllEarnTasks();

@@ -1,16 +1,6 @@
 [
   {
     "ContainingType": "EndPoint.Areas.Admin.Controllers.EarnSectionController",
-    "Method": "EarnTask",
-    "RelativePath": "Admin",
-    "HttpMethod": "",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "EndPoint.Areas.Admin.Controllers.EarnSectionController",
     "Method": "AddEarnTask",
     "RelativePath": "Admin/AddEarnTask",
     "HttpMethod": "GET",
@@ -218,6 +208,16 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Areas.Admin.Controllers.EarnSectionController",
+    "Method": "EarnTask",
+    "RelativePath": "Admin/EarnTask",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
