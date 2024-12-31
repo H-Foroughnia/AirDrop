@@ -8,7 +8,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace EndPoint.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/auth")]
     [ApiController]
     public class AuthController : ControllerBase
     {
@@ -17,10 +17,10 @@ namespace EndPoint.Controllers
         private readonly IUserService _userService;
         private readonly ILogger<AuthController> _logger;
 
-        public AuthController(ILogger<AuthController> logger, IUserService userService)
+        public AuthController(IUserService userService, ILogger<AuthController> logger)
         {
-            _logger = logger;
             _userService = userService;
+            _logger = logger;
         }
 
         [HttpPost("telegram")]
@@ -44,6 +44,7 @@ namespace EndPoint.Controllers
                 var jwtToken = GenerateJwtToken(user);
 
                 _logger.LogInformation("User authenticated successfully. Token generated for UserId: {UserId}", user.Id);
+
                 return Ok(new { Token = jwtToken, User = user });
             }
             catch (Exception ex)
