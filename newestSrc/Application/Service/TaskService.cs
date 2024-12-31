@@ -6,7 +6,9 @@ using Domain.Models.Label;
 using Domain.Models.Task;
 using Domain.ViewModels;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.JsonWebTokens;
+using System.Security.Claims;
 
 namespace Application.Service;
 
@@ -15,12 +17,14 @@ public class TaskService:ITaskService
     private readonly ITaskRepository _repository;
     private readonly IFileUploadHelper _uploadHelper;
     private readonly IHttpContextAccessor _httpContextAccessor;
+    private readonly ILogger<TaskService> _logger;
 
-    public TaskService(ITaskRepository repository, IFileUploadHelper uploadHelper, IHttpContextAccessor httpContextAccessor)
+    public TaskService(ITaskRepository repository, IFileUploadHelper uploadHelper, IHttpContextAccessor httpContextAccessor, ILogger<TaskService> logger)
     {
         _repository = repository;
         _uploadHelper = uploadHelper;
         _httpContextAccessor = httpContextAccessor;
+        _logger = logger;
     }
 
     public async Task<AddCategoryTaskResult> AddTaskCategory(CategoryTaskViewModel viewModel)
@@ -93,11 +97,32 @@ public class TaskService:ITaskService
 
     public async Task DoImageTaskAsync(ImageTaskDoneDto imageTask)
     {
-        var userIdClaim = _httpContextAccessor.HttpContext?.User.FindFirst(JwtRegisteredClaimNames.Sub);
-        if (userIdClaim == null || !int.TryParse(userIdClaim.Value, out var userId))
+        var user = _httpContextAccessor.HttpContext?.User;
+
+        if (user == null || !user.Identity.IsAuthenticated)
         {
+            _logger.LogWarning("User is not authenticated.");
+            throw new UnauthorizedAccessException("User is not authenticated.");
+        }
+
+        // Fetch the user ID from the NameIdentifier claim
+        var userIdClaim = user.FindFirst(ClaimTypes.NameIdentifier);
+
+        if (userIdClaim == null || string.IsNullOrEmpty(userIdClaim.Value))
+        {
+            _logger.LogWarning("User ID could not be retrieved from the token.");
             throw new UnauthorizedAccessException("User ID could not be retrieved from the token.");
         }
+
+        if (!int.TryParse(userIdClaim.Value, out var userId))
+        {
+            _logger.LogWarning("User ID is not in a valid format.");
+            throw new UnauthorizedAccessException("User ID is not in a valid format.");
+        }
+
+        _logger.LogInformation("Retrieved User ID from JWT: {UserId}", userId);
+
+
 
         string FilePath = _uploadHelper.Upload(imageTask.UploadedImage, "taskSamples");
         var hash = Guid.NewGuid();

@@ -35,6 +35,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("8f71648e-6a50-4cde-8474-bb02a9463b1c"))
         };
     });
+builder.Services.AddAuthorization();
 
 builder.Services.AddSwaggerGen(options =>
 {
@@ -68,11 +69,25 @@ app.UseSwaggerUI(c =>
     c.RoutePrefix = string.Empty;
 });
 
+app.Use(async (context, next) =>
+{
+    var user = context.User;
+    if (user.Identity.IsAuthenticated)
+    {
+        foreach (var claim in user.Claims)
+        {
+            Console.WriteLine($"{claim.Type}: {claim.Value}");
+        }
+    }
+    await next();
+});
+
+
 app.UseHttpsRedirection();
 
 app.UseStaticFiles();
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

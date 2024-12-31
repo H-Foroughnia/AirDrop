@@ -454,16 +454,6 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "UserId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
         "Name": "TaskId",
         "Type": "System.Int32",
         "IsRequired": false
@@ -471,36 +461,6 @@
       {
         "Name": "UploadedImage",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
-      },
-      {
-        "Name": "StatusId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "Nude",
-        "Type": "System.Boolean",
-        "IsRequired": false
-      },
-      {
-        "Name": "AiValidate",
-        "Type": "System.Boolean",
-        "IsRequired": false
-      },
-      {
-        "Name": "ImageHash",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Created",
-        "Type": "System.DateTime",
-        "IsRequired": false
-      },
-      {
-        "Name": "Updated",
-        "Type": "System.DateTime",
         "IsRequired": false
       }
     ],

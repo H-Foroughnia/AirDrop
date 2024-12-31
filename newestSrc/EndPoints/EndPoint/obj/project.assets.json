@@ -2838,6 +2838,7 @@
         "dependencies": {
           "Domain": "1.0.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
           "Microsoft.IdentityModel.JsonWebTokens": "8.3.0"
         },
         "compile": {

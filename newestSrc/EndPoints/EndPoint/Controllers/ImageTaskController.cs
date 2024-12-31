@@ -35,7 +35,7 @@ namespace EndPoint.Controllers
             {
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
-        }
+        }   
 
         [HttpPost("DoImageTask")]
         public async Task<ActionResult<ImageTaskDoneModel>> DoImageTask([FromForm] ImageTaskDoneDto doneDto)

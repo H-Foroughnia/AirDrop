@@ -293,14 +293,6 @@
               "schema": {
                 "type": "object",
                 "properties": {
-                  "Id": {
-                    "type": "integer",
-                    "format": "int32"
-                  },
-                  "UserId": {
-                    "type": "integer",
-                    "format": "int32"
-                  },
                   "TaskId": {
                     "type": "integer",
                     "format": "int32"
@@ -308,59 +300,14 @@
                   "UploadedImage": {
                     "type": "string",
                     "format": "binary"
-                  },
-                  "StatusId": {
-                    "type": "integer",
-                    "format": "int32"
-                  },
-                  "Nude": {
-                    "type": "boolean"
-                  },
-                  "AiValidate": {
-                    "type": "boolean"
-                  },
-                  "ImageHash": {
-                    "type": "string"
-                  },
-                  "Created": {
-                    "type": "string",
-                    "format": "date-time"
-                  },
-                  "Updated": {
-                    "type": "string",
-                    "format": "date-time"
                   }
                 }
               },
               "encoding": {
-                "Id": {
-                  "style": "form"
-                },
-                "UserId": {
-                  "style": "form"
-                },
                 "TaskId": {
                   "style": "form"
                 },
                 "UploadedImage": {
-                  "style": "form"
-                },
-                "StatusId": {
-                  "style": "form"
-                },
-                "Nude": {
-                  "style": "form"
-                },
-                "AiValidate": {
-                  "style": "form"
-                },
-                "ImageHash": {
-                  "style": "form"
-                },
-                "Created": {
-                  "style": "form"
-                },
-                "Updated": {
                   "style": "form"
                 }
               }
