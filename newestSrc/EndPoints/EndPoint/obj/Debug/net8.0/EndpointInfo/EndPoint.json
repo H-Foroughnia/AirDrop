@@ -391,6 +391,102 @@
         }
       }
     },
+    "/api/LabelTask/GetLabelTasks": {
+      "get": {
+        "tags": [
+          "LabelTask"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LabelTask/DoLabelTask": {
+      "post": {
+        "tags": [
+          "LabelTask"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "UserId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "TaskId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "StatusId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "AnswerId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Created": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "Updated": {
+                    "type": "string",
+                    "format": "date-time"
+                  }
+                }
+              },
+              "encoding": {
+                "UserId": {
+                  "style": "form"
+                },
+                "TaskId": {
+                  "style": "form"
+                },
+                "StatusId": {
+                  "style": "form"
+                },
+                "AnswerId": {
+                  "style": "form"
+                },
+                "Created": {
+                  "style": "form"
+                },
+                "Updated": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ImageTaskDoneModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ImageTaskDoneModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ImageTaskDoneModel"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/Admin/StatusTask": {
       "get": {
         "tags": [

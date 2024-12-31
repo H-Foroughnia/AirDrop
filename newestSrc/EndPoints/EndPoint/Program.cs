@@ -6,7 +6,6 @@ using Infra.IoC;
 using Application.IService;
 using EndPoint.Utils;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.Extensions.FileProviders;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 
@@ -47,6 +46,9 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
+builder.Services.AddHttpContextAccessor();
+
+
 builder.Services.AddScoped<IFileUploadHelper, FileUploadHelper>();
 
 builder.Services.AddControllersWithViews();
@@ -67,8 +69,6 @@ app.UseSwaggerUI(c =>
 });
 
 app.UseHttpsRedirection();
-
-
 
 app.UseStaticFiles();
 app.UseRouting();

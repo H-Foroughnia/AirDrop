@@ -5,6 +5,8 @@ using Domain.Models.Category;
 using Domain.Models.Label;
 using Domain.Models.Task;
 using Domain.ViewModels;
+using Microsoft.AspNetCore.Http;
+using Microsoft.IdentityModel.JsonWebTokens;
 
 namespace Application.Service;
 
@@ -12,11 +14,13 @@ public class TaskService:ITaskService
 {
     private readonly ITaskRepository _repository;
     private readonly IFileUploadHelper _uploadHelper;
+    private readonly IHttpContextAccessor _httpContextAccessor;
 
-    public TaskService(ITaskRepository repository, IFileUploadHelper uploadHelper)
+    public TaskService(ITaskRepository repository, IFileUploadHelper uploadHelper, IHttpContextAccessor httpContextAccessor)
     {
         _repository = repository;
         _uploadHelper = uploadHelper;
+        _httpContextAccessor = httpContextAccessor;
     }
 
     public async Task<AddCategoryTaskResult> AddTaskCategory(CategoryTaskViewModel viewModel)
@@ -89,6 +93,12 @@ public class TaskService:ITaskService
 
     public async Task DoImageTaskAsync(ImageTaskDoneDto imageTask)
     {
+        var userIdClaim = _httpContextAccessor.HttpContext?.User.FindFirst(JwtRegisteredClaimNames.Sub);
+        if (userIdClaim == null || !int.TryParse(userIdClaim.Value, out var userId))
+        {
+            throw new UnauthorizedAccessException("User ID could not be retrieved from the token.");
+        }
+
         string FilePath = _uploadHelper.Upload(imageTask.UploadedImage, "taskSamples");
         var hash = Guid.NewGuid();
         var taskDone = new ImageTaskDoneModel()
@@ -96,12 +106,12 @@ public class TaskService:ITaskService
             AiValidate = true,
             ImageHash = hash.ToString(),
             Nude = false,
-            StatusId = imageTask.StatusId,
+            StatusId = 2,
             Created = DateTime.UtcNow,
             Updated = DateTime.UtcNow,
             TaskId = imageTask.TaskId,
             UploadedImage = FilePath,
-            UserId = imageTask.UserId
+            UserId = userId
         };
         await _repository.AddImageTaskAsync(taskDone);
         await _repository.SaveChange();

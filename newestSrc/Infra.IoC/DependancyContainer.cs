@@ -1,9 +1,7 @@
 ﻿using Application.IService;
 using Application.Service;
 using Domain.IRepository;
-using Infra.Data.Context;
 using Infra.Data.Repository;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Infra.IoC
@@ -22,6 +20,8 @@ namespace Infra.IoC
             services.AddScoped<IFriendsRepository, FriendsRepository>();
             services.AddScoped<IStatusRepository, StatusRepository>();
             services.AddScoped<IAnswerRepository, AnswerRepository>();
+            services.AddScoped<ILabelTaskRepository, LabelTaskRepository>();
+            services.AddScoped<ILabelTaskService, LabelTaskService>();
         }
     }
 }

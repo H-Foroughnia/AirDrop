@@ -25,5 +25,6 @@ namespace Infra.Data.Context
         public DbSet<StatusTaskModel> StatusTasks { get; set; }
         public DbSet<ImageTaskDoneModel> TaskDones { get; set; }
         public DbSet<AnswerModel> Answers { get; set; }
+        public DbSet<LabelTaskDoneModel> LabelTaskDones { get; set; }
     }
 }

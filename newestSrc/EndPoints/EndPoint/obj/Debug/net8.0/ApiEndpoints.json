@@ -525,5 +525,66 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Controllers.LabelTaskController",
+    "Method": "DoLabelTask",
+    "RelativePath": "api/LabelTask/DoLabelTask",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "TaskId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "StatusId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "AnswerId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Created",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Updated",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Models.Task.ImageTaskDoneModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EndPoint.Controllers.LabelTaskController",
+    "Method": "GetLabelTasks",
+    "RelativePath": "api/LabelTask/GetLabelTasks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

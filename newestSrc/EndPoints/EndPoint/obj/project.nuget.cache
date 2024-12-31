@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "chS1XLC1ZEg=",
+  "dgSpecHash": "zCI/Ls9P4lw=",
   "success": true,
   "projectFilePath": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\EndPoint.csproj",
   "expectedPackageFiles": [
@@ -57,6 +57,7 @@
     "C:\\Users\\hamid\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\hamid\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
     "C:\\Users\\hamid\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.11\\microsoft.aspnetcore.authentication.jwtbearer.8.0.11.nupkg.sha512",
+    "C:\\Users\\hamid\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\hamid\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\hamid\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.24\\microsoft.aspnetcore.razor.language.6.0.24.nupkg.sha512",
     "C:\\Users\\hamid\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

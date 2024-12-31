@@ -16,7 +16,7 @@ public class FriendsRepository:IFriendsRepository
 
     public async Task<IEnumerable<FriendsModel>> GetAllAsync()
     {
-        return await _context.Set<FriendsModel>()
+        return await _context.Friends
             .Include(f => f.User)
             .Include(f => f.Friend)
             .ToListAsync();
@@ -24,7 +24,7 @@ public class FriendsRepository:IFriendsRepository
 
     public async Task<FriendsModel> GetByIdAsync(int id)
     {
-        return await _context.Set<FriendsModel>()
+        return await _context.Friends
             .Include(f => f.User)
             .Include(f => f.Friend)
             .FirstOrDefaultAsync(f => f.Id == id);
@@ -32,13 +32,13 @@ public class FriendsRepository:IFriendsRepository
 
     public async Task AddAsync(FriendsModel friendsModel)
     {
-        await _context.Set<FriendsModel>().AddAsync(friendsModel);
+        await _context.Friends.AddAsync(friendsModel);
         await _context.SaveChangesAsync();
     }
 
     public async Task UpdateAsync(FriendsModel friendsModel)
     {
-        _context.Set<FriendsModel>().Update(friendsModel);
+        _context.Friends.Update(friendsModel);
         await _context.SaveChangesAsync();
     }
 
@@ -47,7 +47,7 @@ public class FriendsRepository:IFriendsRepository
         var entity = await GetByIdAsync(id);
         if (entity != null)
         {
-            _context.Set<FriendsModel>().Remove(entity);
+            _context.Friends.Remove(entity);
             await _context.SaveChangesAsync();
         }
     }
