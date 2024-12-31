@@ -15,10 +15,9 @@ public class LabelTaskRepository:ILabelTaskRepository
         _context = context;
     }
 
-    public async Task<IEnumerable<LabelTaskDoneModel>> GetAllLabelTasks()
+    public async Task<IEnumerable<ImageTaskDoneModel>> GetAllLabelTasks()
     {
-        return await _context.LabelTaskDones
-            .Include(t => t.Answer)
+        return await _context.TaskDones
             .Include(t => t.Status)
             .Include(t => t.Task)
             .ToListAsync();

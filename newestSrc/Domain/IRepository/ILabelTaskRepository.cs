@@ -5,6 +5,6 @@ namespace Domain.IRepository;
 
 public interface ILabelTaskRepository
 {
-    Task<IEnumerable<LabelTaskDoneModel>> GetAllLabelTasks();
+    Task<IEnumerable<ImageTaskDoneModel>> GetAllLabelTasks();
     Task<LabelTaskDoneModel> AddLabelTaskAsync(LabelTaskDoneModel labelTask);
 }

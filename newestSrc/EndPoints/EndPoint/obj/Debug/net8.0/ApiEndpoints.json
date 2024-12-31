@@ -495,33 +495,13 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "UserId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
         "Name": "TaskId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "StatusId",
         "Type": "System.Int32",
         "IsRequired": false
       },
       {
         "Name": "AnswerId",
         "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "Created",
-        "Type": "System.DateTime",
-        "IsRequired": false
-      },
-      {
-        "Name": "Updated",
-        "Type": "System.DateTime",
         "IsRequired": false
       }
     ],

@@ -361,49 +361,21 @@
               "schema": {
                 "type": "object",
                 "properties": {
-                  "UserId": {
-                    "type": "integer",
-                    "format": "int32"
-                  },
                   "TaskId": {
-                    "type": "integer",
-                    "format": "int32"
-                  },
-                  "StatusId": {
                     "type": "integer",
                     "format": "int32"
                   },
                   "AnswerId": {
                     "type": "integer",
                     "format": "int32"
-                  },
-                  "Created": {
-                    "type": "string",
-                    "format": "date-time"
-                  },
-                  "Updated": {
-                    "type": "string",
-                    "format": "date-time"
                   }
                 }
               },
               "encoding": {
-                "UserId": {
-                  "style": "form"
-                },
                 "TaskId": {
                   "style": "form"
                 },
-                "StatusId": {
-                  "style": "form"
-                },
                 "AnswerId": {
-                  "style": "form"
-                },
-                "Created": {
-                  "style": "form"
-                },
-                "Updated": {
                   "style": "form"
                 }
               }
