@@ -6,7 +6,59 @@
     "version": "v1"
   },
   "paths": {
-    "/api/Auth/telegram": {
+    "/Admin/Answer": {
+      "get": {
+        "tags": [
+          "AnswerSection"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Admin/AddAnswer": {
+      "get": {
+        "tags": [
+          "AnswerSection"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "AnswerSection"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Answer",
+            "in": "query",
+            "schema": {
+              "maxLength": 64,
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/auth/telegram": {
       "post": {
         "tags": [
           "Auth"

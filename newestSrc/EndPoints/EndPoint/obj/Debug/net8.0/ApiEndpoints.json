@@ -1,5 +1,36 @@
 [
   {
+    "ContainingType": "EndPoint.Areas.Admin.Controllers.AnswerSectionController",
+    "Method": "AddAnswer",
+    "RelativePath": "Admin/AddAnswer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Areas.Admin.Controllers.AnswerSectionController",
+    "Method": "AddAnswer",
+    "RelativePath": "Admin/AddAnswer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Answer",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "EndPoint.Areas.Admin.Controllers.EarnSectionController",
     "Method": "AddEarnTask",
     "RelativePath": "Admin/AddEarnTask",
@@ -242,6 +273,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "EndPoint.Areas.Admin.Controllers.AnswerSectionController",
+    "Method": "Answer",
+    "RelativePath": "Admin/Answer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "EndPoint.Areas.Admin.Controllers.EarnSectionController",
     "Method": "EarnTask",
     "RelativePath": "Admin/EarnTask",
@@ -391,7 +432,7 @@
   {
     "ContainingType": "EndPoint.Controllers.AuthController",
     "Method": "TelegramAuth",
-    "RelativePath": "api/Auth/telegram",
+    "RelativePath": "api/auth/telegram",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

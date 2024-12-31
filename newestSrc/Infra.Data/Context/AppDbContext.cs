@@ -1,4 +1,5 @@
-﻿using Domain.Models.Category;
+﻿using Domain.Models.Answer;
+using Domain.Models.Category;
 using Domain.Models.Friend;
 using Domain.Models.Label;
 using Domain.Models.Status;
@@ -23,5 +24,6 @@ namespace Infra.Data.Context
         public DbSet<FriendsModel> Friends { get; set; }
         public DbSet<StatusTaskModel> StatusTasks { get; set; }
         public DbSet<ImageTaskDoneModel> TaskDones { get; set; }
+        public DbSet<AnswerModel> Answers { get; set; }
     }
 }

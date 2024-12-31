@@ -21,7 +21,7 @@ namespace Infra.IoC
             services.AddScoped<IFriendsService, FriendsService>();
             services.AddScoped<IFriendsRepository, FriendsRepository>();
             services.AddScoped<IStatusRepository, StatusRepository>();
-
+            services.AddScoped<IAnswerRepository, AnswerRepository>();
         }
     }
 }
