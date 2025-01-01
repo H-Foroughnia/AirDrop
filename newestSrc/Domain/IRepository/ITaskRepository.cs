@@ -19,6 +19,6 @@ public interface ITaskRepository
 
     Task<ImageTaskDoneModel> AddImageTaskAsync(ImageTaskDoneModel imageTask);
     Task<ImageTaskDoneModel> GetImageTaskByIdAsync(int id);
-
+    Task<ImageTaskDoneModel> GetImageTaskByHashAsync(string imageHash);
     Task SaveChange();
 }

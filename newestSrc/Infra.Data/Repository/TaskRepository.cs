@@ -105,6 +105,12 @@ public class TaskRepository:ITaskRepository
             .FirstOrDefaultAsync(x => x.Id == id);
     }
 
+    public async Task<ImageTaskDoneModel> GetImageTaskByHashAsync(string imageHash)
+    {
+        return await _context.TaskDones
+            .FirstOrDefaultAsync(task => task.ImageHash == imageHash);
+    }
+
     public async Task SaveChange()
     {
         await _context.SaveChangesAsync();

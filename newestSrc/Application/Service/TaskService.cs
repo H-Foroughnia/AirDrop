@@ -123,14 +123,17 @@ public class TaskService:ITaskService
 
         _logger.LogInformation("Retrieved User ID from JWT: {UserId}", userId);
 
-        // Upload the image and save the file path
         string filePath = _uploadHelper.Upload(imageTask.UploadedImage, "taskSamples");
-
-        // Load the image using ImageSharp
         using var uploadedImage = SixLabors.ImageSharp.Image.Load($"wwwroot/Uploads/{filePath}");
         string imageHash = uploadedImage.ComputeImageHash();
 
-        // Create and save the task model
+        var existingTask = await _repository.GetImageTaskByHashAsync(imageHash);
+        if (existingTask != null)
+        {
+            _logger.LogWarning("Image with hash {ImageHash} already exists.", imageHash);
+            throw new InvalidOperationException("This image already exists.");
+        }
+
         var taskDone = new ImageTaskDoneModel()
         {
             AiValidate = true,
