@@ -12,11 +12,13 @@ namespace EndPoint.Controllers
     {
         private readonly ITaskService _service;
         private readonly ITaskRepository _taskRepository;
+        private readonly IWebHostEnvironment _webHostEnvironment;
 
-        public ImageTaskController(ITaskRepository taskRepository, ITaskService service)
+        public ImageTaskController(ITaskRepository taskRepository, ITaskService service, IWebHostEnvironment webHostEnvironment)
         {
             _taskRepository = taskRepository;
             _service = service;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         [HttpGet("GetImageTasks")]
@@ -43,6 +45,12 @@ namespace EndPoint.Controllers
             if (doneDto == null)
             {
                 return BadRequest("Invalid image task data.");
+            }
+
+            var directoryPath = Path.Combine(_webHostEnvironment.WebRootPath, "taskSamples");
+            if (!Directory.Exists(directoryPath))
+            {
+                Directory.CreateDirectory(directoryPath);
             }
 
             await _service.DoImageTaskAsync(doneDto);

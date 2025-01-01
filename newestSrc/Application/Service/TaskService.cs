@@ -105,7 +105,6 @@ public class TaskService:ITaskService
             throw new UnauthorizedAccessException("User is not authenticated.");
         }
 
-        // Fetch the user ID from the NameIdentifier claim
         var userIdClaim = user.FindFirst(ClaimTypes.NameIdentifier);
 
         if (userIdClaim == null || string.IsNullOrEmpty(userIdClaim.Value))

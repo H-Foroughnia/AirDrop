@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cDSjsQ+1tIMlA3SufxVasjOF/FzC+TcHJXaPbLAtR1E=",
+  "Hash": "Cn/zXTbb4FBzCGT3NhGjYF5qmO0WPmBCCluhUjYhuUk=",
   "Source": "EndPoint",
   "BasePath": "_content/EndPoint",
   "Mode": "Default",
@@ -8921,6 +8921,27 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\EarnIcon\\ba14788a-16dd-4e7c-9091-2ee405509f90_6019586262836560688.jpg"
     },
     {
+      "Identity": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\Uploads\\taskSamples\\0c23bf46-31af-42bf-920a-e837ec1c82e8_Screenshot 2024-12-26 160147.png",
+      "SourceId": "EndPoint",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\",
+      "BasePath": "_content/EndPoint",
+      "RelativePath": "Uploads/taskSamples/0c23bf46-31af-42bf-920a-e837ec1c82e8_Screenshot 2024-12-26 160147#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wc1tbk59lc",
+      "Integrity": "4AiMg8SnjcTmN6ZAnfUmNe5BnIrcXefw1GBW3kgH0wE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\taskSamples\\0c23bf46-31af-42bf-920a-e837ec1c82e8_Screenshot 2024-12-26 160147.png"
+    },
+    {
       "Identity": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\Uploads\\taskSamples\\10cf7fb5-da6b-49e4-84a1-2f640f939e1d_Pic5.webp",
       "SourceId": "EndPoint",
       "SourceType": "Discovered",
@@ -8961,6 +8982,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\taskSamples\\1222d84e-142f-4770-9476-19c77176e76f_6019586262836560688.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\Uploads\\taskSamples\\1acaaa00-3fd4-4c1f-b949-1004b925f317_Screenshot 2024-12-26 160147.png",
+      "SourceId": "EndPoint",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\",
+      "BasePath": "_content/EndPoint",
+      "RelativePath": "Uploads/taskSamples/1acaaa00-3fd4-4c1f-b949-1004b925f317_Screenshot 2024-12-26 160147#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wc1tbk59lc",
+      "Integrity": "4AiMg8SnjcTmN6ZAnfUmNe5BnIrcXefw1GBW3kgH0wE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\taskSamples\\1acaaa00-3fd4-4c1f-b949-1004b925f317_Screenshot 2024-12-26 160147.png"
     },
     {
       "Identity": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\Uploads\\taskSamples\\48804830-20cc-4404-82ea-b8b9fb08e65b_Pic6.webp",
@@ -44006,6 +44048,88 @@
       ]
     },
     {
+      "Route": "Uploads/taskSamples/0c23bf46-31af-42bf-920a-e837ec1c82e8_Screenshot 2024-12-26 160147.png",
+      "AssetFile": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\Uploads\\taskSamples\\0c23bf46-31af-42bf-920a-e837ec1c82e8_Screenshot 2024-12-26 160147.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "99335"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4AiMg8SnjcTmN6ZAnfUmNe5BnIrcXefw1GBW3kgH0wE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 16:46:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4AiMg8SnjcTmN6ZAnfUmNe5BnIrcXefw1GBW3kgH0wE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/taskSamples/0c23bf46-31af-42bf-920a-e837ec1c82e8_Screenshot 2024-12-26 160147.wc1tbk59lc.png",
+      "AssetFile": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\Uploads\\taskSamples\\0c23bf46-31af-42bf-920a-e837ec1c82e8_Screenshot 2024-12-26 160147.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "99335"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4AiMg8SnjcTmN6ZAnfUmNe5BnIrcXefw1GBW3kgH0wE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 16:46:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wc1tbk59lc"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/taskSamples/0c23bf46-31af-42bf-920a-e837ec1c82e8_Screenshot 2024-12-26 160147.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4AiMg8SnjcTmN6ZAnfUmNe5BnIrcXefw1GBW3kgH0wE="
+        }
+      ]
+    },
+    {
       "Route": "Uploads/taskSamples/10cf7fb5-da6b-49e4-84a1-2f640f939e1d_Pic5.0mkvjaxcvw.webp",
       "AssetFile": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\Uploads\\taskSamples\\10cf7fb5-da6b-49e4-84a1-2f640f939e1d_Pic5.webp",
       "Selectors": [],
@@ -44166,6 +44290,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-HIcZCWWboRj+ZN337tBI2oez+ObNqTu2gJS+1/D7p6U="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/taskSamples/1acaaa00-3fd4-4c1f-b949-1004b925f317_Screenshot 2024-12-26 160147.png",
+      "AssetFile": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\Uploads\\taskSamples\\1acaaa00-3fd4-4c1f-b949-1004b925f317_Screenshot 2024-12-26 160147.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "99335"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4AiMg8SnjcTmN6ZAnfUmNe5BnIrcXefw1GBW3kgH0wE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 16:57:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4AiMg8SnjcTmN6ZAnfUmNe5BnIrcXefw1GBW3kgH0wE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/taskSamples/1acaaa00-3fd4-4c1f-b949-1004b925f317_Screenshot 2024-12-26 160147.wc1tbk59lc.png",
+      "AssetFile": "C:\\Users\\hamid\\OneDrive\\Documents\\AirDrop\\newestSrc\\EndPoints\\EndPoint\\wwwroot\\Uploads\\taskSamples\\1acaaa00-3fd4-4c1f-b949-1004b925f317_Screenshot 2024-12-26 160147.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "99335"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4AiMg8SnjcTmN6ZAnfUmNe5BnIrcXefw1GBW3kgH0wE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 16:57:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wc1tbk59lc"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/taskSamples/1acaaa00-3fd4-4c1f-b949-1004b925f317_Screenshot 2024-12-26 160147.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4AiMg8SnjcTmN6ZAnfUmNe5BnIrcXefw1GBW3kgH0wE="
         }
       ]
     },
