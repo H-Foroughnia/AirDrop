@@ -18,3 +18,5 @@ C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Infra.IoC\bin\Debug\net8.0\D
 C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Infra.IoC\obj\Debug\net8.0\Infra.IoC.csproj.Up2Date
 C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Infra.IoC\bin\Debug\net8.0\Infra.Data.dll
 C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Infra.IoC\bin\Debug\net8.0\Infra.Data.pdb
+C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Infra.IoC\bin\Debug\net8.0\Common.Application.dll
+C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Infra.IoC\bin\Debug\net8.0\Common.Application.pdb

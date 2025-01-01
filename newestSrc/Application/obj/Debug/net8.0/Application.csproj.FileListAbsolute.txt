@@ -14,3 +14,5 @@ C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Application\obj\Debug\net8.0
 C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Application\obj\Debug\net8.0\refint\Application.dll
 C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Application\obj\Debug\net8.0\Application.pdb
 C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Application\obj\Debug\net8.0\ref\Application.dll
+C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Application\bin\Debug\net8.0\Common.Application.dll
+C:\Users\hamid\OneDrive\Documents\AirDrop\newestSrc\Application\bin\Debug\net8.0\Common.Application.pdb

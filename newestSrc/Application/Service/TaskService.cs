@@ -10,6 +10,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.JsonWebTokens;
 using System.Security.Claims;
 using Application.Extensions;
+using Common.Application;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace Application.Service;
@@ -97,14 +98,19 @@ public class TaskService:ITaskService
         await _repository.UpdateTask(task);
     }
 
-    public async Task DoImageTaskAsync(ImageTaskDoneDto imageTask)
+    public async Task<ServiceResponse> DoImageTaskAsync(ImageTaskDoneDto imageTask)
     {
         var user = _httpContextAccessor.HttpContext?.User;
 
         if (user == null || !user.Identity.IsAuthenticated)
         {
             _logger.LogWarning("User is not authenticated.");
-            throw new UnauthorizedAccessException("User is not authenticated.");
+            return new ServiceResponse
+            {
+                Success = false,
+                Message = "User is not authenticated.",
+                StatusCode = 401
+            };
         }
 
         var userIdClaim = user.FindFirst(ClaimTypes.NameIdentifier);
@@ -112,15 +118,24 @@ public class TaskService:ITaskService
         if (userIdClaim == null || string.IsNullOrEmpty(userIdClaim.Value))
         {
             _logger.LogWarning("User ID could not be retrieved from the token.");
-            throw new UnauthorizedAccessException("User ID could not be retrieved from the token.");
+            return new ServiceResponse
+            {
+                Success = false,
+                Message = "User ID could not be retrieved from the token.",
+                StatusCode = 401
+            };
         }
 
         if (!int.TryParse(userIdClaim.Value, out var userId))
         {
             _logger.LogWarning("User ID is not in a valid format.");
-            throw new UnauthorizedAccessException("User ID is not in a valid format.");
+            return new ServiceResponse
+            {
+                Success = false,
+                Message = "User ID is not in a valid format.",
+                StatusCode = 401
+            };
         }
-
         _logger.LogInformation("Retrieved User ID from JWT: {UserId}", userId);
 
         string filePath = _uploadHelper.Upload(imageTask.UploadedImage, "taskSamples");
@@ -131,7 +146,12 @@ public class TaskService:ITaskService
         if (existingTask != null)
         {
             _logger.LogWarning("Image with hash {ImageHash} already exists.", imageHash);
-            throw new InvalidOperationException("This image already exists.");
+            return new ServiceResponse
+            {
+                Success = false,
+                Message = "This image already exists.",
+                StatusCode = 409
+            };
         }
 
         var taskDone = new ImageTaskDoneModel()
@@ -149,7 +169,16 @@ public class TaskService:ITaskService
 
         await _repository.AddImageTaskAsync(taskDone);
         await _repository.SaveChange();
+
+        return new ServiceResponse
+        {
+            Success = true,
+            Message = "Image task processed successfully.",
+            StatusCode = 200
+        };
     }
+
+
 
     public Task<ImageTaskDoneModel> GetImageTaskByIdAsync(int id)
     {

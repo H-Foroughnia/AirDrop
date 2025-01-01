@@ -1,8 +1,10 @@
-﻿using Domain.IRepository;
+﻿using System.Security.Claims;
+using Domain.IRepository;
 using Domain.Models.Category;
 using Domain.Models.Label;
 using Domain.Models.Task;
 using Infra.Data.Context;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infra.Data.Repository;
@@ -10,10 +12,12 @@ namespace Infra.Data.Repository;
 public class TaskRepository:ITaskRepository
 {
     private readonly AppDbContext _context;
+    private readonly IHttpContextAccessor _httpContextAccessor;
 
-    public TaskRepository(AppDbContext context)
+    public TaskRepository(AppDbContext context, IHttpContextAccessor httpContextAccessor)
     {
         _context = context;
+        _httpContextAccessor = httpContextAccessor;
     }
 
     public async Task AddTaskCategory(CategoryTaskModel model)
@@ -65,11 +69,39 @@ public class TaskRepository:ITaskRepository
 
     public async Task<IEnumerable<TaskImageModel>> GetAllTasks()
     {
-        return await _context.TaskImages
+        var user = _httpContextAccessor.HttpContext?.User;
+
+        if (user == null || !user.Identity.IsAuthenticated)
+        {
+            throw new UnauthorizedAccessException("User not found");
+        }
+
+        var userIdClaim = user.FindFirst(ClaimTypes.NameIdentifier);
+
+        if (userIdClaim == null || string.IsNullOrEmpty(userIdClaim.Value))
+        {
+            throw new UnauthorizedAccessException("User not found");
+        }
+
+        if (!int.TryParse(userIdClaim.Value, out var userId))
+        {
+            throw new UnauthorizedAccessException("User not found");
+        }
+
+        var completedTaskIds = await _context.TaskDones
+            .Where(itd => itd.UserId == userId)
+            .Select(itd => itd.TaskId)
+            .ToListAsync();
+
+        var tasks = await _context.TaskImages
             .Include(t => t.Category)
             .Include(t => t.Label)
+            .Where(t => !completedTaskIds.Contains(t.Id)) 
             .ToListAsync();
+
+        return tasks;
     }
+
 
     public async Task UpdateTask(TaskImageModel task)
     {

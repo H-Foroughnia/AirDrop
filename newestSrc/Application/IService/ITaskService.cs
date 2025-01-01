@@ -1,4 +1,5 @@
-﻿using Domain.DTOs.Task;
+﻿using Common.Application;
+using Domain.DTOs.Task;
 using Domain.Models.Task;
 using Domain.ViewModels;
 
@@ -10,6 +11,6 @@ public interface ITaskService
     Task<AddLabelImageResult> AddLabelImage(LabelImageViewModel viewModel);
     Task<AddTaskImageResult> AddTaskImage(TaskImageViewModel viewModel);
     Task UpdateTaskImage(EditTaskImageViewModel viewModel);
-    Task DoImageTaskAsync(ImageTaskDoneDto imageTask);
+    Task<ServiceResponse> DoImageTaskAsync(ImageTaskDoneDto imageTask);
     Task<ImageTaskDoneModel> GetImageTaskByIdAsync(int id);
 }

@@ -2015,6 +2015,7 @@
       },
       "Application/1.0.0": {
         "dependencies": {
+          "Common.Application": "1.0.0",
           "Domain": "1.0.0",
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
@@ -2025,6 +2026,14 @@
         },
         "runtime": {
           "Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Common.Application/1.0.0": {
+        "runtime": {
+          "Common.Application.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -2044,6 +2053,7 @@
       "Infra.Data/1.0.0": {
         "dependencies": {
           "Domain": "1.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.EntityFrameworkCore": "8.0.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.11",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.11"
@@ -3260,6 +3270,11 @@
       "hashPath": "system.windows.extensions.7.0.0.nupkg.sha512"
     },
     "Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Common.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,4 +1,5 @@
-﻿using Application.IService;
+﻿using Application.Extensions;
+using Application.IService;
 using Domain.DTOs.Task;
 using Domain.IRepository;
 using Domain.Models.Task;
@@ -37,7 +38,7 @@ namespace EndPoint.Controllers
             {
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
-        }   
+        }
 
         [HttpPost("DoImageTask")]
         public async Task<ActionResult<ImageTaskDoneModel>> DoImageTask([FromForm] ImageTaskDoneDto doneDto)
@@ -53,8 +54,15 @@ namespace EndPoint.Controllers
                 Directory.CreateDirectory(directoryPath);
             }
 
-            await _service.DoImageTaskAsync(doneDto);
+            var serviceResponse = await _service.DoImageTaskAsync(doneDto);
+
+            if (!serviceResponse.Success)
+            {
+                return StatusCode(serviceResponse.StatusCode, new { message = serviceResponse.Message });
+            }
+
             return Ok(doneDto);
         }
+
     }
 }
