@@ -40,7 +40,7 @@ namespace EndPoint.Controllers
         }
 
         [HttpPost("DoLabelTask")]
-        public async Task<ActionResult<ImageTaskDoneModel>> DoLabelTask([FromForm] LabelTaskDoneDto doneDto)
+        public async Task<ActionResult<ImageTaskDoneModel>> DoLabelTask(LabelTaskDoneDto doneDto)
         {
             if (doneDto == null)
             {
