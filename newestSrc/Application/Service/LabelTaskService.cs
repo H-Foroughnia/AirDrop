@@ -46,7 +46,7 @@ public class LabelTaskService:ILabelTaskService
         }
 
         _logger.LogInformation("Retrieved User ID from JWT: {UserId}", userId);
-
+        _logger.LogInformation("TaskId: {TaskId}, Answer: {Answer}", labelTask.TaskId, labelTask.Answer);
 
         var labelDone = new LabelTaskDoneModel()
         {
