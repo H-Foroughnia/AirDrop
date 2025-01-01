@@ -425,10 +425,12 @@ wwwroot\Uploads\EarnIcon\ba14788a-16dd-4e7c-9091-2ee405509f90_601958626283656068
 wwwroot\Uploads\taskSamples\0c23bf46-31af-42bf-920a-e837ec1c82e8_Screenshot 2024-12-26 160147.png
 wwwroot\Uploads\taskSamples\10cf7fb5-da6b-49e4-84a1-2f640f939e1d_Pic5.webp
 wwwroot\Uploads\taskSamples\1222d84e-142f-4770-9476-19c77176e76f_6019586262836560688.jpg
+wwwroot\Uploads\taskSamples\176acd77-4553-45a6-9d98-ff8fef101b66_Screenshot 2024-12-26 160147.png
 wwwroot\Uploads\taskSamples\1acaaa00-3fd4-4c1f-b949-1004b925f317_Screenshot 2024-12-26 160147.png
 wwwroot\Uploads\taskSamples\48804830-20cc-4404-82ea-b8b9fb08e65b_Pic6.webp
 wwwroot\Uploads\taskSamples\575b4bf4-d856-41f5-99f3-e3553cbc4521_WIN_20241103_15_06_30_Pro.jpg
 wwwroot\Uploads\taskSamples\5fc07233-5493-4990-8d0a-5e333f1a0321_Screenshot 2024-12-26 160147.png
+wwwroot\Uploads\taskSamples\71ef7769-152f-4232-8af1-b19c211b69bf_Screenshot 2024-12-26 160147.png
 wwwroot\Uploads\taskSamples\782a73e0-6ddc-4a67-9ed0-7509caafab30_کاور بیررونی.webp
 wwwroot\Uploads\taskSamples\83389296-0c2c-47fc-9380-013e05490f19_Screenshot 2024-12-26 160147.png
 wwwroot\Uploads\taskSamples\93fb98fe-adfd-40c6-88e1-68378b86a982_Screenshot 2024-12-26 160147.png

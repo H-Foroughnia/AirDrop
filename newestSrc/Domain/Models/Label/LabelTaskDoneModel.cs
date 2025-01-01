@@ -19,9 +19,7 @@ namespace Domain.Models.Label
         [ForeignKey("StatusTaskModel")] 
         public int StatusId { get; set; }
         public StatusTaskModel Status { get; set; }
-        [ForeignKey("AnswerModel")] 
-        public int AnswerId { get; set; }
-        public AnswerModel Answer { get; set; }
+        public bool Answer { get; set; }
         public DateTime Created { get; set; } = DateTime.UtcNow;
         public DateTime Updated { get; set; } = DateTime.UtcNow;
 

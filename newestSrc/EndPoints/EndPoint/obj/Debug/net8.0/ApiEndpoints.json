@@ -500,8 +500,8 @@
         "IsRequired": false
       },
       {
-        "Name": "AnswerId",
-        "Type": "System.Int32",
+        "Name": "Answer",
+        "Type": "System.Boolean",
         "IsRequired": false
       }
     ],

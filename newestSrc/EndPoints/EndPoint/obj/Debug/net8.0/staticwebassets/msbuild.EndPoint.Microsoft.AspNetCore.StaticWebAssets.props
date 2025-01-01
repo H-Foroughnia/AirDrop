@@ -7686,6 +7686,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\taskSamples\1222d84e-142f-4770-9476-19c77176e76f_6019586262836560688.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\taskSamples\176acd77-4553-45a6-9d98-ff8fef101b66_Screenshot 2024-12-26 160147.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>EndPoint</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EndPoint</BasePath>
+      <RelativePath>Uploads/taskSamples/176acd77-4553-45a6-9d98-ff8fef101b66_Screenshot 2024-12-26 160147.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wc1tbk59lc</Fingerprint>
+      <Integrity>4AiMg8SnjcTmN6ZAnfUmNe5BnIrcXefw1GBW3kgH0wE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\taskSamples\176acd77-4553-45a6-9d98-ff8fef101b66_Screenshot 2024-12-26 160147.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\taskSamples\1acaaa00-3fd4-4c1f-b949-1004b925f317_Screenshot 2024-12-26 160147.png'))">
       <SourceType>Package</SourceType>
       <SourceId>EndPoint</SourceId>
@@ -7757,6 +7775,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\taskSamples\5fc07233-5493-4990-8d0a-5e333f1a0321_Screenshot 2024-12-26 160147.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\taskSamples\71ef7769-152f-4232-8af1-b19c211b69bf_Screenshot 2024-12-26 160147.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>EndPoint</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EndPoint</BasePath>
+      <RelativePath>Uploads/taskSamples/71ef7769-152f-4232-8af1-b19c211b69bf_Screenshot 2024-12-26 160147.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wc1tbk59lc</Fingerprint>
+      <Integrity>4AiMg8SnjcTmN6ZAnfUmNe5BnIrcXefw1GBW3kgH0wE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\taskSamples\71ef7769-152f-4232-8af1-b19c211b69bf_Screenshot 2024-12-26 160147.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\taskSamples\782a73e0-6ddc-4a67-9ed0-7509caafab30_کاور بیررونی.webp'))">
       <SourceType>Package</SourceType>

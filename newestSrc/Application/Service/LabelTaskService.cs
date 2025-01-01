@@ -52,7 +52,7 @@ public class LabelTaskService:ILabelTaskService
         {
             UserId = userId,
             TaskId = labelTask.TaskId,
-            AnswerId = labelTask.AnswerId,
+            Answer = labelTask.Answer,
             StatusId = 2,
             Created = DateTime.UtcNow,
             Updated = DateTime.UtcNow

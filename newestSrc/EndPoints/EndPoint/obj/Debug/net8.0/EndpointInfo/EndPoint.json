@@ -365,9 +365,8 @@
                     "type": "integer",
                     "format": "int32"
                   },
-                  "AnswerId": {
-                    "type": "integer",
-                    "format": "int32"
+                  "Answer": {
+                    "type": "boolean"
                   }
                 }
               },
@@ -375,7 +374,7 @@
                 "TaskId": {
                   "style": "form"
                 },
-                "AnswerId": {
+                "Answer": {
                   "style": "form"
                 }
               }
