@@ -357,26 +357,19 @@
         ],
         "requestBody": {
           "content": {
-            "multipart/form-data": {
+            "application/json": {
               "schema": {
-                "type": "object",
-                "properties": {
-                  "TaskId": {
-                    "type": "integer",
-                    "format": "int32"
-                  },
-                  "Answer": {
-                    "type": "boolean"
-                  }
-                }
-              },
-              "encoding": {
-                "TaskId": {
-                  "style": "form"
-                },
-                "Answer": {
-                  "style": "form"
-                }
+                "$ref": "#/components/schemas/LabelTaskDoneDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LabelTaskDoneDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LabelTaskDoneDto"
               }
             }
           }
@@ -851,6 +844,19 @@
             "maxLength": 16,
             "minLength": 1,
             "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LabelTaskDoneDto": {
+        "type": "object",
+        "properties": {
+          "taskId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "answer": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false

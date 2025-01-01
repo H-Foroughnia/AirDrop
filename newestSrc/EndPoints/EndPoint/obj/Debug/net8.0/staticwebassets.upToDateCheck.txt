@@ -430,6 +430,8 @@ wwwroot\Uploads\taskSamples\1acaaa00-3fd4-4c1f-b949-1004b925f317_Screenshot 2024
 wwwroot\Uploads\taskSamples\48804830-20cc-4404-82ea-b8b9fb08e65b_Pic6.webp
 wwwroot\Uploads\taskSamples\575b4bf4-d856-41f5-99f3-e3553cbc4521_WIN_20241103_15_06_30_Pro.jpg
 wwwroot\Uploads\taskSamples\5fc07233-5493-4990-8d0a-5e333f1a0321_Screenshot 2024-12-26 160147.png
+wwwroot\Uploads\taskSamples\6e518ff9-7977-496e-a620-8de2e19eb7b5_Screenshot 2024-12-26 160147.png
+wwwroot\Uploads\taskSamples\6f1e20ab-2c6e-450d-b92a-aff67abe28ce_Screenshot 2024-12-26 160147.png
 wwwroot\Uploads\taskSamples\71ef7769-152f-4232-8af1-b19c211b69bf_Screenshot 2024-12-26 160147.png
 wwwroot\Uploads\taskSamples\782a73e0-6ddc-4a67-9ed0-7509caafab30_کاور بیررونی.webp
 wwwroot\Uploads\taskSamples\83389296-0c2c-47fc-9380-013e05490f19_Screenshot 2024-12-26 160147.png

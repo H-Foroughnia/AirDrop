@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.JsonWebTokens;
 using System.Security.Claims;
+using Application.Extensions;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Application.Service;
 
@@ -121,22 +123,27 @@ public class TaskService:ITaskService
 
         _logger.LogInformation("Retrieved User ID from JWT: {UserId}", userId);
 
+        // Upload the image and save the file path
+        string filePath = _uploadHelper.Upload(imageTask.UploadedImage, "taskSamples");
 
+        // Load the image using ImageSharp
+        using var uploadedImage = SixLabors.ImageSharp.Image.Load($"wwwroot/Uploads/{filePath}");
+        string imageHash = uploadedImage.ComputeImageHash();
 
-        string FilePath = _uploadHelper.Upload(imageTask.UploadedImage, "taskSamples");
-        var hash = Guid.NewGuid();
+        // Create and save the task model
         var taskDone = new ImageTaskDoneModel()
         {
             AiValidate = true,
-            ImageHash = hash.ToString(),
+            ImageHash = imageHash,
             Nude = false,
             StatusId = 2,
             Created = DateTime.UtcNow,
             Updated = DateTime.UtcNow,
             TaskId = imageTask.TaskId,
-            UploadedImage = FilePath,
+            UploadedImage = filePath,
             UserId = userId
         };
+
         await _repository.AddImageTaskAsync(taskDone);
         await _repository.SaveChange();
     }

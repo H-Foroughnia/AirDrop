@@ -495,14 +495,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "TaskId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "Answer",
-        "Type": "System.Boolean",
-        "IsRequired": false
+        "Name": "doneDto",
+        "Type": "Domain.DTOs.Label.LabelTaskDoneDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
