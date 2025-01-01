@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace EndPoint.ExtensionMethodes;
+namespace EndPoint.Extensions;
 
 public static class ImageHash
 {

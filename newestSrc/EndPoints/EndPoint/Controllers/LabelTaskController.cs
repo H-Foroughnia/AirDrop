@@ -12,11 +12,13 @@ namespace EndPoint.Controllers
     {
         private readonly ILabelTaskService _service;
         private readonly ILabelTaskRepository _repository;
+        private readonly ILogger<LabelTaskController> _logger;
 
-        public LabelTaskController(ILabelTaskService service, ILabelTaskRepository repository)
+        public LabelTaskController(ILabelTaskService service, ILabelTaskRepository repository, ILogger<LabelTaskController> logger)
         {
             _service = service;
             _repository = repository;
+            _logger = logger;
         }
 
         [HttpGet("GetLabelTasks")]
@@ -44,6 +46,10 @@ namespace EndPoint.Controllers
             {
                 return BadRequest("Invalid label task data.");
             }
+
+            // Log data of LabelTaskDoneDto
+            _logger.LogInformation("Processing label task with TaskId: {TaskId}, Answer: {Answer}", doneDto.TaskId, doneDto.Answer);
+
             await _service.DoLabelTaskAsync(doneDto);
 
             return Ok(doneDto);
